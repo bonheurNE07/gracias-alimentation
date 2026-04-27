@@ -18,6 +18,14 @@
       "snacks": "Vitafunio",
       "drinks": "Vinywaji"
     }
+  },
+  "Cart": {
+    "title": "Kapu Lako",
+    "empty": "Kapu lako ni tupu.",
+    "browse": "Tazama menyu",
+    "remove": "Ondoa",
+    "checkout": "Kamilisha agizo"
   }
 }
+
 
