@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/providers/theme-provider';
 import Header from '@/components/layout/header';
+import CartFAB from '@/features/cart/components/CartFAB';
 import "@/app/globals.css";
 
 export function generateStaticParams() {
@@ -35,12 +36,14 @@ export default async function LocaleLayout({
             <main className="flex-1 flex flex-col pt-20">
               {children}
             </main>
+            <CartFAB />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
   );
 }
+
 
 
 
