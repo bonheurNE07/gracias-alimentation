@@ -25,6 +25,22 @@
     "browse": "Eryalebya emenyi",
     "remove": "Eryusulha",
     "checkout": "Eryatuma ekyalyo"
+  },
+  "Checkout": {
+    "title": "Eryatuma ekyalyo",
+    "name": "Erina ryosi",
+    "delivery": "Eryatwalha",
+    "pickup": "Eryimya hano",
+    "homeDelivery": "Eryitwalha omu nju",
+    "phone": "Esimu",
+    "address": "Anwani",
+    "submit": "Eryatuma omu WhatsApp",
+    "errors": {
+      "name": "Wandika erina ryawu",
+      "phone": "Wandika esimu yawu",
+      "address": "Wandika anwani yawu"
+    }
   }
 }
+
 
