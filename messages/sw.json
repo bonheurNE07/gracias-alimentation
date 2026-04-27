@@ -25,7 +25,23 @@
     "browse": "Tazama menyu",
     "remove": "Ondoa",
     "checkout": "Kamilisha agizo"
+  },
+  "Checkout": {
+    "title": "Kamilisha agizo",
+    "name": "Jina kamili",
+    "delivery": "Njia ya utoaji",
+    "pickup": "Kuchukua hapa",
+    "homeDelivery": "Kuletewa nyumbani",
+    "phone": "Nambari ya simu",
+    "address": "Anwani ya mahali",
+    "submit": "Thibitisha kwenye WhatsApp",
+    "errors": {
+      "name": "Tafadhali ingiza jina lako",
+      "phone": "Tafadhali ingiza nambari yako ya simu",
+      "address": "Tafadhali ingiza anwani yako"
+    }
   }
 }
+
 
 
