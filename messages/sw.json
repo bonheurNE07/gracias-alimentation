@@ -8,5 +8,16 @@
   },
   "Language": {
     "select": "Chagua lugha"
+  },
+  "Menu": {
+    "quantity": "Kiasi",
+    "addToCart": "Weka kwenye kapu",
+    "categories": {
+      "all": "Zote",
+      "breakfast": "Kifungua kinywa",
+      "snacks": "Vitafunio",
+      "drinks": "Vinywaji"
+    }
   }
 }
+
