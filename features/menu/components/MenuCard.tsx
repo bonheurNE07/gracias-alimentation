@@ -37,11 +37,12 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
         <div className="mt-4 flex items-center justify-between">
           <div>
             <p className="text-lg font-bold text-emerald-600 dark:text-emerald-400">
-              ${item.price_usd.toFixed(2)}
+              {item.price_cdf.toLocaleString()} FC
             </p>
             <p className="text-xs text-zinc-400 dark:text-zinc-500">
-              {item.price_cdf.toLocaleString()} CDF
+              ${item.price_usd.toFixed(2)}
             </p>
+
           </div>
 
           <button

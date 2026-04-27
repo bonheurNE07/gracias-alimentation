@@ -73,11 +73,12 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           <div className="mt-4 flex items-center justify-between">
             <div>
               <p className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
-                ${item.price_usd.toFixed(2)}
+                {item.price_cdf.toLocaleString()} FC
               </p>
               <p className="text-sm text-zinc-500 dark:text-zinc-400">
-                {item.price_cdf.toLocaleString()} CDF
+                ${item.price_usd.toFixed(2)}
               </p>
+
             </div>
           </div>
 

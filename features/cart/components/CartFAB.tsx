@@ -2,13 +2,14 @@
 
 import { useCartStore } from '../store/useCartStore';
 import { useTranslations } from 'next-intl';
-import { useRouter } from '@/i18n/navigation';
+import { useRouter, usePathname } from '@/i18n/navigation';
 import { useEffect, useState } from 'react';
 
 export default function CartFAB() {
   const items = useCartStore((state) => state.items);
   const t = useTranslations('Cart');
   const router = useRouter();
+  const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -17,8 +18,12 @@ export default function CartFAB() {
 
   const totalItems = items.reduce((acc, item) => acc + item.quantity, 0);
   const totalPriceUSD = items.reduce((acc, item) => acc + item.price_usd * item.quantity, 0);
+  const totalPriceCDF = items.reduce((acc, item) => acc + item.price_cdf * item.quantity, 0);
 
   if (!mounted || totalItems === 0) return null;
+  if (pathname === '/checkout' || pathname.endsWith('/checkout')) return null;
+
+
 
 
   return (
@@ -46,7 +51,8 @@ export default function CartFAB() {
         </span>
       </div>
       <span className="font-semibold text-sm">
-        {t('checkout')} (${totalPriceUSD.toFixed(2)})
+        {t('checkout')} ({totalPriceCDF.toLocaleString()} FC)
+
 
       </span>
     </button>

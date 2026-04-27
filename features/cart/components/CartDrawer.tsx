@@ -70,11 +70,12 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                   </h3>
                   <div className="mt-1">
                     <span className="text-sm font-bold text-emerald-600 dark:text-emerald-400">
-                      ${(item.price_usd * item.quantity).toFixed(2)}
+                      {(item.price_cdf * item.quantity).toLocaleString()} FC
                     </span>
                     <span className="text-xs text-zinc-400 ml-2">
-                      {((item.price_cdf * item.quantity)).toLocaleString()} CDF
+                      ${((item.price_usd * item.quantity)).toFixed(2)}
                     </span>
+
                   </div>
 
                   <div className="mt-3 flex items-center justify-between">
@@ -123,11 +124,12 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
               </span>
               <div className="text-right">
                 <p className="text-xl font-bold text-emerald-600 dark:text-emerald-400">
-                  ${getTotalPriceUSD().toFixed(2)}
+                  {getTotalPriceCDF().toLocaleString()} FC
                 </p>
                 <p className="text-xs text-zinc-400 dark:text-zinc-500 font-medium">
-                  {getTotalPriceCDF().toLocaleString()} CDF
+                  ${getTotalPriceUSD().toFixed(2)}
                 </p>
+
               </div>
             </div>
 
