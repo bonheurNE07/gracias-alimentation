@@ -25,7 +25,23 @@
     "browse": "Voir le menu",
     "remove": "Supprimer",
     "checkout": "Passer la commande"
+  },
+  "Checkout": {
+    "title": "Finaliser la commande",
+    "name": "Nom complet",
+    "delivery": "Mode de livraison",
+    "pickup": "Retrait sur place",
+    "homeDelivery": "Livraison à domicile",
+    "phone": "Téléphone",
+    "address": "Adresse de livraison",
+    "submit": "Confirmer sur WhatsApp",
+    "errors": {
+      "name": "Veuillez entrer votre nom",
+      "phone": "Veuillez entrer votre numéro de téléphone",
+      "address": "Veuillez entrer votre adresse de livraison"
+    }
   }
 }
+
 
 
