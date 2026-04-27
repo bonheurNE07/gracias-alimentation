@@ -1,46 +1,49 @@
 {
   "Index": {
     "title": "Mwasu hano Alimentation Gracias",
-    "description": "Ebyalya ebyo wanzire, luba na molo."
+    "description": "Ebyalya byinyu ebyo mukunda, bikaletwa mangu kandi bulayi."
   },
   "Theme": {
-    "toggle": "Eryalula esyongyera"
+    "toggle": "Ekyokulanga / obubembe"
   },
   "Language": {
-    "select": "Eryasombola emibughe"
+    "select": "Sonda olulimi lwawo"
   },
   "Menu": {
-    "quantity": "Obunene",
-    "addToCart": "Eryahira omu kitunga",
+    "quantity": "Obungi",
+    "addToCart": "Yongeraho mu kitunga",
     "categories": {
       "all": "Byosi",
       "breakfast": "Ekyengetse",
-      "snacks": "Ebyo kulya bike",
-      "drinks": "Ebyo kunywa"
+      "snacks": "Ebyakulya bike",
+      "drinks": "Ebyakunwa"
     }
   },
   "Cart": {
-    "title": "Ekitunga Kyawu",
-    "empty": "Ekitunga kyawu ni kyatupu.",
-    "browse": "Eryalebya emenyi",
-    "remove": "Eryusulha",
-    "checkout": "Eryatuma ekyalyo"
+    "title": "Ekitunga kyawo",
+    "empty": "Ekitunga kyawo kiri busa.",
+    "browse": "Lola ebyakulya",
+    "remove": "Gyaho",
+    "checkout": "Maliriza okutumiza"
   },
   "Checkout": {
-    "title": "Eryatuma ekyalyo",
-    "name": "Erina ryosi",
-    "delivery": "Eryatwalha",
-    "pickup": "Eryimya hano",
-    "homeDelivery": "Eryitwalha omu nju",
+    "title": "Maliriza okutumiza",
+    "name": "Erina ryawo",
+    "delivery": "Engira y’okuleeta",
+    "pickup": "Ojireta wano",
+    "homeDelivery": "Okuleetera mu nju",
     "phone": "Esimu",
-    "address": "Anwani",
-    "submit": "Eryatuma omu WhatsApp",
+    "address": "Endagiriro",
+    "submit": "Tuma ku WhatsApp",
     "errors": {
-      "name": "Wandika erina ryawu",
-      "phone": "Wandika esimu yawu",
-      "address": "Wandika anwani yawu"
+      "name": "Wandika erina ryawo",
+      "phone": "Wandika esimu yo",
+      "address": "Wandika endagiriro yo"
     }
+  },
+  "Errors": {
+    "notFoundTitle": "Ekipande tekiriwo",
+    "notFoundDesc": "Kyekyisa! Ebyakulya bino tebiriwo.",
+    "backToMenu": "Ddayo mu menu"
   }
 }
-
-

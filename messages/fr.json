@@ -1,10 +1,10 @@
 {
   "Index": {
     "title": "Bienvenue chez Alimentation Gracias",
-    "description": "Vos plats préférés, rapidement et simplement."
+    "description": "Tes plats préférés, servis vite et simplement."
   },
   "Theme": {
-    "toggle": "Changer de thème"
+    "toggle": "Changer le thème"
   },
   "Language": {
     "select": "Choisir la langue"
@@ -14,34 +14,36 @@
     "addToCart": "Ajouter au panier",
     "categories": {
       "all": "Tout",
-      "breakfast": "Petit-déjeuner",
+      "breakfast": "Petit-déj",
       "snacks": "Snacks",
       "drinks": "Boissons"
     }
   },
   "Cart": {
-    "title": "Votre Panier",
-    "empty": "Votre panier est vide.",
+    "title": "Ton panier",
+    "empty": "Ton panier est vide.",
     "browse": "Voir le menu",
-    "remove": "Supprimer",
+    "remove": "Retirer",
     "checkout": "Passer la commande"
   },
   "Checkout": {
     "title": "Finaliser la commande",
     "name": "Nom complet",
     "delivery": "Mode de livraison",
-    "pickup": "Retrait sur place",
+    "pickup": "À emporter",
     "homeDelivery": "Livraison à domicile",
     "phone": "Téléphone",
     "address": "Adresse de livraison",
     "submit": "Confirmer sur WhatsApp",
     "errors": {
-      "name": "Veuillez entrer votre nom",
-      "phone": "Veuillez entrer votre numéro de téléphone",
-      "address": "Veuillez entrer votre adresse de livraison"
+      "name": "Entre ton nom",
+      "phone": "Entre ton numéro",
+      "address": "Entre ton adresse de livraison"
     }
+  },
+  "Errors": {
+    "notFoundTitle": "Page introuvable",
+    "notFoundDesc": "Oups ! Ce plat n’est plus disponible ou la page a changé.",
+    "backToMenu": "Retour au menu"
   }
 }
-
-
-

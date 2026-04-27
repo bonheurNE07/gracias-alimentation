@@ -1,47 +1,49 @@
 {
   "Index": {
-    "title": "Karibu kwenye Alimentation Gracias",
-    "description": "Chakula unachopenda, haraka na rahisi."
+    "title": "Karibu Alimentation Gracias",
+    "description": "Chakula unachopenda, haraka na kwa urahisi."
   },
   "Theme": {
-    "toggle": "Badilisha mandhari"
+    "toggle": "Badilisha mwonekano"
   },
   "Language": {
     "select": "Chagua lugha"
   },
   "Menu": {
     "quantity": "Kiasi",
-    "addToCart": "Weka kwenye kapu",
+    "addToCart": "Ongeza kwenye kapu",
     "categories": {
       "all": "Zote",
       "breakfast": "Kifungua kinywa",
-      "snacks": "Vitafunio",
+      "snacks": "Vyakula vidogo",
       "drinks": "Vinywaji"
     }
   },
   "Cart": {
-    "title": "Kapu Lako",
+    "title": "Kapu lako",
     "empty": "Kapu lako ni tupu.",
-    "browse": "Tazama menyu",
+    "browse": "Angalia menyu",
     "remove": "Ondoa",
-    "checkout": "Kamilisha agizo"
+    "checkout": "Maliza oda"
   },
   "Checkout": {
-    "title": "Kamilisha agizo",
+    "title": "Maliza oda",
     "name": "Jina kamili",
-    "delivery": "Njia ya utoaji",
+    "delivery": "Njia ya kupeleka",
     "pickup": "Kuchukua hapa",
-    "homeDelivery": "Kuletewa nyumbani",
-    "phone": "Nambari ya simu",
-    "address": "Anwani ya mahali",
+    "homeDelivery": "Kuletwa nyumbani",
+    "phone": "Namba ya simu",
+    "address": "Anwani",
     "submit": "Thibitisha kwenye WhatsApp",
     "errors": {
       "name": "Tafadhali ingiza jina lako",
-      "phone": "Tafadhali ingiza nambari yako ya simu",
+      "phone": "Tafadhali ingiza namba ya simu",
       "address": "Tafadhali ingiza anwani yako"
     }
+  },
+  "Errors": {
+    "notFoundTitle": "Ukurasa haupatikani",
+    "notFoundDesc": "Samahani! Ukurasa huu haupo au umehamishwa.",
+    "backToMenu": "Rudi kwenye menyu"
   }
 }
-
-
-
