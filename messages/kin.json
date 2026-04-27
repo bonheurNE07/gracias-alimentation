@@ -8,5 +8,15 @@
   },
   "Language": {
     "select": "Eryasombola emibughe"
+  },
+  "Menu": {
+    "quantity": "Obunene",
+    "addToCart": "Eryahira omu kitunga",
+    "categories": {
+      "all": "Byosi",
+      "breakfast": "Ekyengetse",
+      "snacks": "Ebyo kulya bike",
+      "drinks": "Ebyo kunywa"
+    }
   }
 }
