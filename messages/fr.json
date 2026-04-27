@@ -8,5 +8,16 @@
   },
   "Language": {
     "select": "Choisir la langue"
+  },
+  "Menu": {
+    "quantity": "Quantité",
+    "addToCart": "Ajouter au panier",
+    "categories": {
+      "all": "Tout",
+      "breakfast": "Petit-déjeuner",
+      "snacks": "Snacks",
+      "drinks": "Boissons"
+    }
   }
 }
+
