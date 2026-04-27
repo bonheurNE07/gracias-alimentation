@@ -18,6 +18,14 @@
       "snacks": "Snacks",
       "drinks": "Boissons"
     }
+  },
+  "Cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide.",
+    "browse": "Voir le menu",
+    "remove": "Supprimer",
+    "checkout": "Passer la commande"
   }
 }
+
 
