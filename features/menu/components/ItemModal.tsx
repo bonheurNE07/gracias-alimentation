@@ -12,17 +12,25 @@ interface ItemModalProps {
 }
 
 export default function ItemModal({ item, onClose }: ItemModalProps) {
-  const [quantity, setQuantity] = useState(1);
+  const cartItems = useCartStore((state) => state.items);
+  const existingItem = cartItems.find((i) => i.id === item.id);
+  const [quantity, setQuantity] = useState(existingItem ? existingItem.quantity : 1);
   const addItem = useCartStore((state) => state.addItem);
+  const updateQuantity = useCartStore((state) => state.updateQuantity);
   const t = useTranslations('Menu');
 
   const handleIncrement = () => setQuantity((prev) => prev + 1);
   const handleDecrement = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
 
   const handleAddToCart = () => {
-    addItem(item, quantity);
+    if (existingItem) {
+      updateQuantity(item.id, quantity);
+    } else {
+      addItem(item, quantity);
+    }
     onClose();
   };
+
 
   return (
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm animate-fade-in">
