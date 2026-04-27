@@ -2,6 +2,7 @@
 
 import { MenuItem } from '@/types/menu';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 interface MenuCardProps {
   item: MenuItem;
@@ -10,10 +11,14 @@ interface MenuCardProps {
 
 export default function MenuCard({ item, onSelect }: MenuCardProps) {
   return (
-    <div 
+    <motion.div 
       onClick={() => onSelect(item)}
+      whileHover={{ y: -4, scale: 1.01 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ duration: 0.25, ease: 'easeOut' }}
       className="group bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-100 dark:border-zinc-800/50 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col h-full"
     >
+
       <div className="relative w-full h-48 bg-zinc-100 dark:bg-zinc-800 overflow-hidden">
         <Image
           src={item.image}
@@ -66,6 +71,7 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
+

@@ -5,6 +5,7 @@ import { MenuItem } from '@/types/menu';
 import { useCartStore } from '@/features/cart/store/useCartStore';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 interface ItemModalProps {
   item: MenuItem;
@@ -12,6 +13,7 @@ interface ItemModalProps {
 }
 
 export default function ItemModal({ item, onClose }: ItemModalProps) {
+
   const cartItems = useCartStore((state) => state.items);
   const existingItem = cartItems.find((i) => i.id === item.id);
   const [quantity, setQuantity] = useState(existingItem ? existingItem.quantity : 1);
@@ -33,8 +35,21 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
 
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/50 backdrop-blur-sm animate-fade-in">
-      <div className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-2xl sm:rounded-2xl overflow-hidden shadow-xl max-h-[90vh] flex flex-col">
+    <motion.div 
+      initial={{ opacity: 0 }}
+
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-sm"
+    >
+      <motion.div 
+        initial={{ y: 60, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: 60, opacity: 0 }}
+        transition={{ type: 'spring', damping: 25, stiffness: 250 }}
+        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[90vh] flex flex-col relative"
+      >
+
         {/* Close button for desktop */}
         <button
           onClick={onClose}
@@ -117,7 +132,8 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
             {t('addToCart')}
           </button>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
+
