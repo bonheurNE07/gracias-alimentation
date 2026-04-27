@@ -34,6 +34,7 @@
     "homeDelivery": "Livraison à domicile",
     "phone": "Téléphone",
     "address": "Adresse de livraison",
+    "cancel": "Annuler",
     "submit": "Confirmer sur WhatsApp",
     "errors": {
       "name": "Entre ton nom",

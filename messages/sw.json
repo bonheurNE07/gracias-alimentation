@@ -34,11 +34,13 @@
     "homeDelivery": "Kuletwa nyumbani",
     "phone": "Namba ya simu",
     "address": "Anwani",
+    "cancel": "Address",
     "submit": "Thibitisha kwenye WhatsApp",
+
     "errors": {
       "name": "Tafadhali ingiza jina lako",
       "phone": "Tafadhali ingiza namba ya simu",
-      "address": "Tafadhali ingiza anwani yako"
+      "address": "Tafadhali ingiza address yako"
     }
   },
   "Errors": {

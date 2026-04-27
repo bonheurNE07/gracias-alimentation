@@ -4,14 +4,17 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
 import { useCartStore } from '@/features/cart/store/useCartStore';
+import { useRouter } from '@/i18n/navigation';
 import { getCheckoutSchema, CheckoutFormData } from '../validation/checkoutSchema';
 import { generateWhatsAppLink } from '@/utils/whatsapp';
 import { useState } from 'react';
 
 export default function CheckoutForm() {
   const t = useTranslations('Checkout');
+  const router = useRouter();
   const { items, getTotalPriceUSD, clearCart } = useCartStore();
   const [isSubmitting, setIsSubmitting] = useState(false);
+
 
   const {
     register,
@@ -48,7 +51,8 @@ export default function CheckoutForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-md mx-auto p-6 bg-white dark:bg-zinc-900 rounded-2xl border border-zinc-100 dark:border-zinc-800/50 shadow-md space-y-6">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-md mx-auto p-6 bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl rounded-3xl border border-zinc-200/50 dark:border-zinc-800/50 shadow-xl space-y-6">
+
       <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-50 border-b border-zinc-100 dark:border-zinc-800 pb-4">
         {t('title')}
       </h2>
@@ -167,6 +171,25 @@ export default function CheckoutForm() {
         </svg>
         {t('submit')}
       </button>
+
+      <button
+        type="button"
+        onClick={() => router.push('/')}
+        className="w-full py-4 px-4 rounded-full bg-zinc-100/80 dark:bg-zinc-800/50 hover:bg-zinc-200/80 dark:hover:bg-zinc-800/80 text-zinc-700 dark:text-zinc-300 font-semibold border border-zinc-200/50 dark:border-zinc-700/50 transition-colors duration-200 flex items-center justify-center gap-2 mt-2"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={2}
+          stroke="currentColor"
+          className="w-5 h-5 text-zinc-500 dark:text-zinc-400"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        {t('cancel')}
+      </button>
     </form>
+
   );
 }
