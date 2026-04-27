@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/providers/theme-provider';
+import Header from '@/components/layout/header';
 import "@/app/globals.css";
 
 export function generateStaticParams() {
@@ -30,12 +31,16 @@ export default async function LocaleLayout({
       <body className="min-h-full flex flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
-            {children}
+            <Header />
+            <main className="flex-1 flex flex-col pt-20">
+              {children}
+            </main>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
   );
 }
+
 
 
