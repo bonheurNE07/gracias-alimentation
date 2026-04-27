@@ -18,5 +18,13 @@
       "snacks": "Ebyo kulya bike",
       "drinks": "Ebyo kunywa"
     }
+  },
+  "Cart": {
+    "title": "Ekitunga Kyawu",
+    "empty": "Ekitunga kyawu ni kyatupu.",
+    "browse": "Eryalebya emenyi",
+    "remove": "Eryusulha",
+    "checkout": "Eryatuma ekyalyo"
   }
 }
+
