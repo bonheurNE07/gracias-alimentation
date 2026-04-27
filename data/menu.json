@@ -1,0 +1,110 @@
+[
+  {
+    "id": "omelette-frites",
+    "name": "Omelette au frittes",
+    "description": "Une délicieuse omelette accompagnée de frites croustillantes.",
+    "price_usd": 2.5,
+    "price_cdf": 6250,
+    "category": "breakfast",
+    "image": "/images/omelette-frites.png"
+  },
+  {
+    "id": "omelette-saucisse",
+    "name": "Omelette au saucisse",
+    "description": "Omelette savoureuse garnie de morceaux de saucisse.",
+    "price_usd": 3.0,
+    "price_cdf": 7500,
+    "category": "breakfast",
+    "image": "/images/omelette-saucisse.png"
+  },
+  {
+    "id": "omelette-sardine",
+    "name": "Omelette au sardine",
+    "description": "Omelette riche et parfumée à la sardine.",
+    "price_usd": 3.5,
+    "price_cdf": 8750,
+    "category": "breakfast",
+    "image": "/images/omelette-sardine.png"
+  },
+  {
+    "id": "kwanga-saucisse",
+    "name": "Kwanga et saucisse",
+    "description": "Bâton de manioc (kwanga) servi avec des saucisses grillées.",
+    "price_usd": 2.0,
+    "price_cdf": 5000,
+    "category": "snacks",
+    "image": "/images/kwanga-saucisse.png"
+  },
+  {
+    "id": "jus-maracuja",
+    "name": "Jus de Maracuja",
+    "description": "Jus de fruits de la passion frais et naturel.",
+    "price_usd": 2.0,
+    "price_cdf": 5000,
+    "category": "drinks",
+    "image": "/images/jus-maracuja.png"
+  },
+  {
+    "id": "jus-ananas",
+    "name": "Jus d'Ananas",
+    "description": "Jus d'ananas frais et rafraîchissant.",
+    "price_usd": 2.0,
+    "price_cdf": 5000,
+    "category": "drinks",
+    "image": "/images/jus-ananas.png"
+  },
+  {
+    "id": "lait-frais",
+    "name": "Lait Frais",
+    "description": "Un verre de lait frais et nutritif.",
+    "price_usd": 1.5,
+    "price_cdf": 3750,
+    "category": "drinks",
+    "image": "/images/lait-frais.png"
+  },
+  {
+    "id": "fanta",
+    "name": "Fanta",
+    "description": "Boisson gazeuse Fanta orange.",
+    "price_usd": 1.0,
+    "price_cdf": 2500,
+    "category": "drinks",
+    "image": "/images/fanta.png"
+  },
+  {
+    "id": "coca-cola",
+    "name": "Coca-Cola",
+    "description": "Boisson gazeuse Coca-Cola classique.",
+    "price_usd": 1.0,
+    "price_cdf": 2500,
+    "category": "drinks",
+    "image": "/images/coca-cola.png"
+  },
+  {
+    "id": "eau-minerale",
+    "name": "Eau Minérale",
+    "description": "Bouteille d'eau minérale pure.",
+    "price_usd": 0.5,
+    "price_cdf": 1250,
+    "category": "drinks",
+    "image": "/images/eau-minerale.png"
+  },
+  {
+    "id": "saucisses-kilo",
+    "name": "Saucisses (1kg)",
+    "description": "Un kilo de saucisses de qualité supérieure.",
+    "price_usd": 10.0,
+    "price_cdf": 25000,
+    "category": "snacks",
+    "image": "/images/saucisses-kilo.png"
+  },
+  {
+    "id": "sambusa-kilo",
+    "name": "Sambusa (1kg)",
+    "description": "Un kilo de sambusa croustillants et savoureux.",
+    "price_usd": 12.0,
+    "price_cdf": 30000,
+    "category": "snacks",
+    "image": "/images/sambusa-kilo.png"
+  }
+]
