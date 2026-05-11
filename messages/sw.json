@@ -22,47 +22,47 @@
     },
     "items": {
       "omelette-frites": {
-        "name": "Omeleti na viazi",
-        "description": "Omeleti tamu na viazi vilivyokaangwa vizuri."
+        "name": "Omeleti na frittes",
+        "description": "Omeleti tamu na frittes bya moto."
       },
       "omelette-saucisse": {
-        "name": "Omeleti na soseji",
-        "description": "Omeleti tamu iliyo na vipande vya soseji."
+        "name": "Omeleti na sosiso",
+        "description": "Omeleti tamu iliyo na vipande vya sosiso ndani."
       },
       "kwanga-saucisse": {
-        "name": "Kwanga na soseji",
-        "description": "Kwanga laini inayopakuliwa na soseji zilizochomwa vizuri."
+        "name": "Kwanga na sosiso",
+        "description": "Kwanga ya moto iliyopakuliwa na sosiso za moto."
       },
       "jus-multifruits": {
-        "name": "Juisi ya matunda mseto",
-        "description": "Mchanganyiko wa nanasi, pasheni na embe."
+        "name": "Jus ya ma fruits mingi mingi",
+        "description": "Mchanganyiko wa nanasi, marakuja na embe."
       },
       "jus-maracuja": {
-        "name": "Juisi ya pasheni",
-        "description": "Juisi mbichi ya pasheni yenye ladha nzuri."
+        "name": "Jus ya marakuja",
+        "description": "Jus mbichi ya maracuja yenye ladha nzuri."
       },
       "lait-frais": {
-        "name": "Maziwa mabichi",
-        "description": "Maziwa matamu na yenye lishe kwa ajili ya afya."
+        "name": "Maziwa ya baridi",
+        "description": "Maziwa matamu na ya baridi sana kutoka goma(masisi)."
       },
       "saucisses-kilo": {
-        "name": "Soseji (kilo 1)",
-        "description": "Soseji tamu na za hali ya juu."
+        "name": "Sosiso (kilo 1)",
+        "description": "Sosiso tamu na za hali ya juu z moto."
       },
       "jus-sprite": {
-        "name": "Juisi ya Sprite",
+        "name": "Jus Fanta Sprite",
         "description": "Kinywaji chenye gesi na ladha ya limau."
       },
       "jus-oner": {
-        "name": "Juisi ya Oner",
+        "name": "Jus Oner",
         "description": "Kinywaji kinachoburudisha na ladha nzuri."
       },
       "jus-oner-embe-energy-novida-power-tangawizi": {
-        "name": "Mchanganyiko wa Oner / Novida / Power",
+        "name": "Jus Oner / Novida / Power",
         "description": "Vinywaji mbalimbali vya kuongeza nguvu."
       },
       "canette-coconut-water": {
-        "name": "Maji ya nazi (kopo)",
+        "name": "Canette Coconut water",
         "description": "Maji ya nazi asilia yanayoburudisha."
       },
       "power7-water-bottle": {
@@ -70,35 +70,35 @@
         "description": "Maji safi ya kunywa."
       },
       "fromage": {
-        "name": "Jibini",
+        "name": "Fromage",
         "description": "Jibini mbichi yenye ladha nzuri."
       },
       "canette-bavaria": {
-        "name": "Bavaria (kopo)",
+        "name": "Canette Bavaria",
         "description": "Kinywaji cha Bavaria chenye ladha nzuri."
       },
       "malti-apple": {
-        "name": "Malti ya tofaa",
+        "name": "Jus Malti Pomme",
         "description": "Kinywaji chenye ladha nzuri ya tofaa."
       },
       "vinut-strawberry-juice-canette": {
-        "name": "Juisi ya jordaraji (Vinut)",
+        "name": "Canette Vinut strawberry",
         "description": "Kinywaji chenye ladha kali ya jordaraji."
       },
       "fretins-frits": {
-        "name": "Fretins waliokaangwa",
-        "description": "Samaki wadogo watamu na waliokaangwa vizuri."
+        "name": "Sambazaa ya ku kalangiwa",
+        "description": "Sambazaa waliokaangwa vizuri."
       },
       "fretins-frais": {
-        "name": "Fretins wabichi",
-        "description": "Samaki wadogo wabichi kutoka Goma."
+        "name": "Sambazaa ya mbichi",
+        "description": "Sambazaa mbichi kutoka Goma."
       },
       "omelette": {
-        "name": "Omeleti",
-        "description": "Omeleti ya kawaida, moto na tamu."
+        "name": "Omelette",
+        "description": "Omelette ya kawaida, moto na tamu."
       },
       "jus-apple-punch": {
-        "name": "Juisi ya Apple Punch",
+        "name": "Jus Apple Punch",
         "description": "Kinywaji kinachoburudisha na ladha ya tofaa."
       },
       "fanta-orange-cocacola-afia-novida": {
