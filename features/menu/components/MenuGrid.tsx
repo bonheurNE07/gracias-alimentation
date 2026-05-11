@@ -7,6 +7,7 @@ import MenuCard from './MenuCard';
 import ItemModal from './ItemModal';
 import { useTranslations } from 'next-intl';
 import { AnimatePresence } from 'framer-motion';
+import { Haptics } from '@/utils/haptics';
 
 
 interface MenuGridProps {
@@ -58,7 +59,10 @@ export default function MenuGrid({ items }: MenuGridProps) {
         {categories.map((category) => (
           <button
             key={category}
-            onClick={() => setActiveCategory(category)}
+            onClick={() => {
+              Haptics.light();
+              setActiveCategory(category);
+            }}
             className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
               activeCategory === category
                 ? 'bg-emerald-600 text-white shadow-sm'
@@ -82,7 +86,10 @@ export default function MenuGrid({ items }: MenuGridProps) {
             <MenuCard
               key={item.id}
               item={item}
-              onSelect={setSelectedItem}
+              onSelect={(item) => {
+                Haptics.light();
+                setSelectedItem(item);
+              }}
             />
           ))}
         </div>

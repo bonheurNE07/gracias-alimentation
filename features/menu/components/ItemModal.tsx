@@ -7,6 +7,8 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
+import { Haptics } from '@/utils/haptics';
+
 interface ItemModalProps {
   item: MenuItem;
   onClose: () => void;
@@ -22,10 +24,20 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
   const t = useTranslations('Menu');
   const mt = useTranslations('Menu.items');
 
-  const handleIncrement = () => setQuantity((prev) => prev + 1);
-  const handleDecrement = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
+  const handleIncrement = () => {
+    Haptics.light();
+    setQuantity((prev) => prev + 1);
+  };
+  
+  const handleDecrement = () => {
+    if (quantity > 1) {
+      Haptics.light();
+      setQuantity((prev) => prev - 1);
+    }
+  };
 
   const handleAddToCart = () => {
+    Haptics.medium();
     if (existingItem) {
       updateQuantity(item.id, quantity);
     } else {

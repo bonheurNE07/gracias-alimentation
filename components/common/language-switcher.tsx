@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Haptics } from '@/utils/haptics';
 
 const languages = [
   {
@@ -36,6 +37,7 @@ export default function LanguageSwitcher() {
     languages.find((lang) => lang.code === locale) || languages[0];
 
   const handleLanguageChange = (newLocale: string) => {
+    Haptics.light();
     router.replace(pathname, { locale: newLocale });
     setIsOpen(false);
   };
@@ -65,7 +67,10 @@ export default function LanguageSwitcher() {
     >
       {/* Trigger */}
       <button
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={() => {
+          Haptics.light();
+          setIsOpen((prev) => !prev);
+        }}
         className="flex items-center gap-2 rounded-full border border-zinc-200/60 bg-white/70 px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm backdrop-blur-lg transition-all duration-300 hover:scale-[1.02] hover:bg-white dark:border-zinc-700/50 dark:bg-zinc-900/70 dark:text-zinc-200 dark:hover:bg-zinc-900"
         aria-label={t('select')}
       >

@@ -8,6 +8,7 @@ import { useRouter } from '@/i18n/navigation';
 import { getCheckoutSchema, CheckoutFormData } from '../validation/checkoutSchema';
 import { generateWhatsAppLink } from '@/utils/whatsapp';
 import { useState } from 'react';
+import { Haptics } from '@/utils/haptics';
 
 export default function CheckoutForm() {
   const t = useTranslations('Checkout');
@@ -32,6 +33,10 @@ export default function CheckoutForm() {
 
   const onSubmit = (data: CheckoutFormData) => {
     setIsSubmitting(true);
+    
+    // Trigger haptic feedback for a premium feel
+    Haptics.success();
+
     const whatsappLink = generateWhatsAppLink({
       customerName: data.customerName,
       deliveryType: data.deliveryType,
