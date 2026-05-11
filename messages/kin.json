@@ -46,7 +46,7 @@
         "description": "Amate amasisya kandi awawene, awawene ey'eritsuka ekiro bulayi."
       },
       "saucisses-kilo": {
-        "name": "Sosis (kilo 1)",
+        "name": "Sosis (100g)",
         "description": "Sosis esyuwene kandi esy'ebeyi, esyuwene ey'okyoka kandi ekyalyo ky'ekihanda. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
@@ -70,7 +70,7 @@
         "description": "Amaghetse awawene awasisya aw'okunwa mu biro byosi."
       },
       "fromage": {
-        "name": "Fromage",
+        "name": "Fromage (1/4kg)",
         "description": "Fromage eyuwasene kandi eyunono, eyuwene ey'ebyalyo byanyu n'ebike by'ekiro. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
@@ -86,11 +86,11 @@
         "description": "Ekinywa ekiruhene eky'efreze ekisisya kandi ekirunono."
       },
       "fretins-frits": {
-        "name": "Efretin esyokehene",
+        "name": "Efretin esyokehene (1/2kg)",
         "description": "Efretin esyuwene kandi esyokehene esyuwene, esyuwene ey'ebyalyo byanyu. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
-        "name": "Efretin esyasisya",
+        "name": "Efretin esyasisya (1/2kg)",
         "description": "Efretin esyasisya erisiga e Goma esyuwasene kandi esyuwene. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {

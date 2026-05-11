@@ -55,10 +55,10 @@
   },
   {
     "id": "saucisses-kilo",
-    "name": "Saucisses (1kg)",
+    "name": "Saucisses (100g)",
     "description": "Des saucisses savoureuses et de qualité supérieure, parfaites pour vos grillades et repas en famille. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc",
-    "price_usd": 13.05,
-    "price_cdf": 30000,
+    "price_usd": 1.52,
+    "price_cdf": 3500,
     "category": "snacks",
     "image": "/images/saucisses-kilo-image2.png"
   },
@@ -109,10 +109,10 @@
   },
   {
     "id": "fromage",
-    "name": "Fromage",
+    "name": "Fromage (1/4kg)",
     "description": "Fromage frais au goût riche et crémeux, parfait pour vos repas et collations. 1/4kg = 5000fc 1/2kg = 10000fc",
-    "price_usd": 0.86,
-    "price_cdf": 20000,
+    "price_usd": 2.17,
+    "price_cdf": 5000,
     "category": "snacks",
     "image": "/images/frommage.png"
   },
@@ -138,14 +138,14 @@
     "id": "vinut-strawberry-juice-canette",
     "name": "Vinut Strawberry Juice Canette",
     "description": "Une boisson fruitée au goût intense de fraise, rafraîchissante et pleine de douceur.",
-    "price_usd": 0.43,
-    "price_cdf": 1000,
+    "price_usd": 1.3,
+    "price_cdf": 3000,
     "category": "drinks",
     "image": "/images/vibrant-vinut-strawberry-juice-canette.png"
   },
   {
     "id": "fretins-frits",
-    "name": "Fretins Frits",
+    "name": "Fretins Frits (1/2kg = 12500Fc)",
     "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12500fc 1kg = 25000fc",
     "price_usd": 5.43,
     "price_cdf": 12500,
@@ -154,7 +154,7 @@
   },
   {
     "id": "fretins-frais",
-    "name": "Fretins Frais",
+    "name": "Fretins Frais (1/2kg = 12000Fc)",
     "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc",
     "price_usd": 5.21,
     "price_cdf": 12000,

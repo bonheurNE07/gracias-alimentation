@@ -46,7 +46,7 @@
         "description": "Maziwa mabichi, matamu na yenye lishe, yanafaa kwa kuanza siku vizuri."
       },
       "saucisses-kilo": {
-        "name": "Sosiso (kilo 1)",
+        "name": "Sosiso (100g)",
         "description": "Sosiso tamu na za hali ya juu, zinafaa kwa kuchoma na milo ya familia. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
@@ -70,7 +70,7 @@
         "description": "Maji safi ya madini na yanayoburudisha kwa ajili ya afya wakati wowote wa mchana."
       },
       "fromage": {
-        "name": "Fromage (Jibini)",
+        "name": "Fromage (1/4kg)",
         "description": "Fromage mbichi yenye ladha nzuri na ya cream, inafaa kwa milo yako na vitafunio. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
@@ -86,11 +86,11 @@
         "description": "Kinywaji cha matunda chenye ladha kali ya strawberry, kinaburudisha na chenye utamu tele."
       },
       "fretins-frits": {
-        "name": "Sambaza Waliokaangwa",
+        "name": "Sambaza Waliokaangwa (1/2kg)",
         "description": "Sambaza waliokaangwa kwa weledi, wakavu na watamu, wanafaa kuandamana na milo yako. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
-        "name": "Sambaza Mbichi",
+        "name": "Sambaza Mbichi (1/2kg)",
         "description": "Sambaza mbichi kutoka Goma waliochaguliwa kwa uangalifu ili kuhakikisha usafi na ubora. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {

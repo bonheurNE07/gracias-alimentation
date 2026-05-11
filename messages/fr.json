@@ -46,7 +46,7 @@
         "description": "Un lait frais, doux et nutritif, idéal pour bien commencer la journée."
       },
       "saucisses-kilo": {
-        "name": "Saucisses (1kg)",
+        "name": "Saucisses (100g)",
         "description": "Des saucisses savoureuses et de qualité supérieure, parfaites pour vos grillades et repas en famille. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
@@ -70,7 +70,7 @@
         "description": "Eau minérale pure et rafraîchissante pour une hydratation saine à tout moment de la journée."
       },
       "fromage": {
-        "name": "Fromage",
+        "name": "Fromage (1/4kg)",
         "description": "Fromage frais au goût riche et crémeux, parfait pour vos repas et collations. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
@@ -86,11 +86,11 @@
         "description": "Une boisson fruitée au goût intense de fraise, rafraîchissante et pleine de douceur."
       },
       "fretins-frits": {
-        "name": "Fretins Frits",
+        "name": "Fretins Frits (1/2kg)",
         "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
-        "name": "Fretins Frais",
+        "name": "Fretins Frais (1/2kg)",
         "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {
