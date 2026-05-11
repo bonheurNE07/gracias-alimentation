@@ -12,7 +12,7 @@
     "id": "omelette-saucisse",
     "name": "Omelette au saucisse",
     "description": "Délicieuse omelette garnie de morceaux de saucisse savoureux pour un petit-déjeuner riche et satisfaisant.",
-    "price_usd": 3.0,
+    "price_usd": 3.26,
     "price_cdf": 7500,
     "category": "breakfast",
     "image": "/images/omelette-au-socises.png"
@@ -48,7 +48,7 @@
     "id": "lait-frais",
     "name": "Lait Frais",
     "description": "Un lait frais, doux et nutritif, idéal pour bien commencer la journée.",
-    "price_usd": 1.5,
+    "price_usd": 1.63,
     "price_cdf": 3750,
     "category": "drinks",
     "image": "/images/lait-frais.png"
@@ -57,7 +57,7 @@
     "id": "saucisses-kilo",
     "name": "Saucisses (1kg)",
     "description": "Des saucisses savoureuses et de qualité supérieure, parfaites pour vos grillades et repas en famille. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc",
-    "price_usd": 12.0,
+    "price_usd": 13.05,
     "price_cdf": 30000,
     "category": "snacks",
     "image": "/images/saucisses-kilo-image2.png"
@@ -146,9 +146,9 @@
   {
     "id": "fretins-frits",
     "name": "Fretins Frits",
-    "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12000fc 1kg = 24000fc",
-    "price_usd": 10.43,
-    "price_cdf": 24000,
+    "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12500fc 1kg = 25000fc",
+    "price_usd": 10.86,
+    "price_cdf": 25000,
     "category": "snacks",
     "image": "/images/fretins-frits.png"
   },
@@ -156,7 +156,7 @@
     "id": "fretins-frais",
     "name": "Fretins Frais",
     "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc",
-    "price_usd": 10.86,
+    "price_usd": 10.43,
     "price_cdf": 24000,
     "category": "snacks",
     "image": "/images/sambazaa.jpg"
