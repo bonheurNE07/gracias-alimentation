@@ -4,6 +4,7 @@ import { useCartStore } from '../store/useCartStore';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
+import { motion } from 'framer-motion';
 
 interface CartDrawerProps {
   isOpen: boolean;
@@ -56,12 +57,19 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                 className="flex gap-4 bg-zinc-50 dark:bg-zinc-800/30 p-3 rounded-xl border border-zinc-100/50 dark:border-zinc-800/50 items-center"
               >
                 <div className="relative w-20 h-20 rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-800 flex-shrink-0">
-                  <Image
-                    src={item.image}
-                    alt={item.name}
-                    fill
-                    className="object-cover"
-                  />
+                  <motion.div
+                    whileHover={{ scale: 1.15 }}
+                    whileTap={{ scale: 1.25 }}
+                    transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
+                    className="relative w-full h-full"
+                  >
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </motion.div>
                 </div>
 
                 <div className="flex-1 min-w-0">
