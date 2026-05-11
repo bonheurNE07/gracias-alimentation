@@ -173,7 +173,7 @@ Must include:
 
 * large image
 * item name
-* short description
+* short 
 * price
 * quantity selector
 * strong Add to Cart button

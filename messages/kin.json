@@ -23,87 +23,87 @@
     "items": {
       "omelette-frites": {
         "name": "Omelete n'ebiribwa",
-        "description": "Omelete eyuwasene n'ebiribwa ebinuhene."
+        "description": "Omelete eyuwasene n'ebiribwa ebinuhene kandi ebiseserene, eyuwene ey'ekyalyo kike kandi ekirunono."
       },
       "omelette-saucisse": {
         "name": "Omelete na sosis",
-        "description": "Omelete eyuwene eyiri mwa sosis."
+        "description": "Omelete eyuwene eyiri mwa sosis esyuwene n'ekyengetse ekiri mwa bulayi kandi ekihunahene."
       },
       "kwanga-saucisse": {
         "name": "Kwanga na sosis",
-        "description": "Kwanga eyoro eyikaletwa na sosis esyokehene."
+        "description": "Kwanga eyoro eyikaletwa na sosis esyokehene esyuwene, eyuwene ey'erihumula n'ekyalyo."
       },
       "jus-multifruits": {
         "name": "Jus y'ebitunda bingi",
-        "description": "Jus eyuwene ey'enanasi, pasio na mangi."
+        "description": "Mix eyuwene ey'enanasi, pasio na mangi ey'ekinywa ky'ebitunda ekyuwene n'ekirunono. 1/2l = 3000fc 1l = 6000fc"
       },
       "jus-maracuja": {
         "name": "Jus y'apasio",
-        "description": "Jus y'apasio eyuwasene kandi eyunono."
+        "description": "Jus y'apasio eyuwasene kandi eyunono, eyuwene ey'erihumula akatambi kosi. 1/2l = 2000fc"
       },
       "lait-frais": {
         "name": "Amate amasisya",
-        "description": "Amate amasisya kandi awawene."
+        "description": "Amate amasisya kandi awawene, awawene ey'eritsuka ekiro bulayi."
       },
       "saucisses-kilo": {
         "name": "Sosis (kilo 1)",
-        "description": "Sosis esyuwene kandi esy'ebeyi."
+        "description": "Sosis esyuwene kandi esy'ebeyi, esyuwene ey'okyoka kandi ekyalyo ky'ekihanda. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
         "name": "Jus y'Sprite",
-        "description": "Ekinywa ekiri mw'egazi kandi ekirunono."
+        "description": "Ekinywa ekiri mw'egazi ekiruhene, ekisiba ekisaka kandi ekiruhene mu bikaletwa byosi."
       },
       "jus-oner": {
         "name": "Jus y'Oner",
-        "description": "Ekinywa ekiri mw'egazi ekirunono."
+        "description": "Ekinywa ekisiba ekiruhene kandi ekirunono, ekisiba mu biro byawo by'erihumula."
       },
       "jus-oner-embe-energy-novida-power-tangawizi": {
-        "name": "Mix y'Oner / Novida / Power",
-        "description": "Ekinywa ekiri mw'egazi bingi."
+        "name": "Jus Oner Embe Energy Novida Power Tangawizi",
+        "description": "Mix y'ebinywa ebisiba kandi ebihuna nguma n'ebirunono by'esyombwa syosi."
       },
       "canette-coconut-water": {
         "name": "Amaghetse w'enasi",
-        "description": "Amaghetse w'enasi awasisya."
+        "description": "Amaghetse w'enasi Vinut awasisya, awawene ey'amaghetse awawene."
       },
       "power7-water-bottle": {
         "name": "Amaghetse w'Power 7",
-        "description": "Amaghetse awawene w'okunwa."
+        "description": "Amaghetse awawene awasisya aw'okunwa mu biro byosi."
       },
       "fromage": {
         "name": "Fromage",
-        "description": "Fromage eyuwasene kandi eyunono."
+        "description": "Fromage eyuwasene kandi eyunono, eyuwene ey'ebyalyo byanyu n'ebike by'ekiro. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
         "name": "Bavaria",
-        "description": "Ekinywa ekiri mw'egazi ekirunono."
+        "description": "Bavaria ekisiba kandi ekisiba mu biro byawo by'erihumula n'ekirunono."
       },
       "malti-apple": {
         "name": "Malti y'epome",
-        "description": "Ekinywa ekiruhene eky'epome."
+        "description": "Ekinywa ekiruhene eky'epome, ekisisya, kandi ekirunono ey'okunwa kisisya."
       },
       "vinut-strawberry-juice-canette": {
         "name": "Jus y'efreze Vinut",
-        "description": "Jus eyuwene ey'efreze."
+        "description": "Ekinywa ekiruhene eky'efreze ekisisya kandi ekirunono."
       },
       "fretins-frits": {
         "name": "Efretin esyokehene",
-        "description": "Efretin esyuwene kandi esyokehene."
+        "description": "Efretin esyuwene kandi esyokehene esyuwene, esyuwene ey'ebyalyo byanyu. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
         "name": "Efretin esyasisya",
-        "description": "Efretin esyasisya erisiga e Goma."
+        "description": "Efretin esyasisya erisiga e Goma esyuwasene kandi esyuwene. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {
         "name": "Omelete",
-        "description": "Omelete eyuwasene kandi eyunono."
+        "description": "Omelete eyuwasene kandi eyunono eyiri mwa magi amasisya. Egi 1 = 1000fc"
       },
       "jus-apple-punch": {
         "name": "Jus y'Apple Punch",
-        "description": "Ekinywa ekiruhene eky'epome."
+        "description": "Ekinywa ekiruhene eky'epome, ekisiba ekisaka kandi ekiruhene."
       },
       "fanta-orange-cocacola-afia-novida": {
-        "name": "Mix y'ebinywa",
-        "description": "Mix y'ebinywa (Fanta, Coca, Afia)."
+        "name": "fanta-orange-cocacola-afia-novida",
+        "description": "Mix y'ebinywa ebisiba kandi ebihuna byosi ey'ebiro byanyu by'omubulayi."
       }
     }
   },

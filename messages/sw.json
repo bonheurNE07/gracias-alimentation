@@ -23,87 +23,87 @@
     "items": {
       "omelette-frites": {
         "name": "Omeleti na frittes",
-        "description": "Omeleti tamu na frittes bya moto."
+        "description": "Omeleti tamu iliyoandaliwa na frittes za dhahabu na crunchy, inafaa kwa mlo rahisi na mtamu."
       },
       "omelette-saucisse": {
         "name": "Omeleti na sosiso",
-        "description": "Omeleti tamu iliyo na vipande vya sosiso ndani."
+        "description": "Omeleti tamu iliyotiwa vipande vya sosiso vyenye ladha kwa ajili ya kiamsha kinywa bora na kinachotosheleza."
       },
       "kwanga-saucisse": {
         "name": "Kwanga na sosiso",
-        "description": "Kwanga ya moto iliyopakuliwa na sosiso za moto."
+        "description": "Kwanga laini inayopakuliwa na sosiso za kuchomwa zenye ladha asilia, inafaa kwa mapumziko ya mlo."
       },
       "jus-multifruits": {
-        "name": "Jus ya ma fruits mingi mingi",
-        "description": "Mchanganyiko wa nanasi, marakuja na embe."
+        "name": "Jus ya Matunda Mchanganyiko",
+        "description": "Mchanganyiko unaoburudisha wa nanasi, marakuja na embe kwa kinywaji asilia cha matunda na chenye ladha tele. 1/2l = 3000fc 1l = 6000fc"
       },
       "jus-maracuja": {
-        "name": "Jus ya marakuja",
-        "description": "Jus mbichi ya maracuja yenye ladha nzuri."
+        "name": "Jus ya Marakuja",
+        "description": "Jus mbichi ya marakuja yenye ladha ya kigeni na chachu kidogo, inafaa kwa kuburudika wakati wowote. 1/2l = 2000fc"
       },
       "lait-frais": {
-        "name": "Maziwa ya baridi",
-        "description": "Maziwa matamu na ya baridi sana kutoka goma(masisi)."
+        "name": "Maziwa Mabichi",
+        "description": "Maziwa mabichi, matamu na yenye lishe, yanafaa kwa kuanza siku vizuri."
       },
       "saucisses-kilo": {
         "name": "Sosiso (kilo 1)",
-        "description": "Sosiso tamu na za hali ya juu z moto."
+        "description": "Sosiso tamu na za hali ya juu, zinafaa kwa kuchoma na milo ya familia. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
-        "name": "Jus Fanta Sprite",
-        "description": "Kinywaji chenye gesi na ladha ya limau."
+        "name": "Jus ya Sprite",
+        "description": "Kinywaji chenye gesi na ladha ya limau, kinaburudisha na kukata kiu kwa kila tone."
       },
       "jus-oner": {
-        "name": "Jus Oner",
-        "description": "Kinywaji kinachoburudisha na ladha nzuri."
+        "name": "Jus ya Oner",
+        "description": "Kinywaji kinachoburudisha chenye ladha nzuri, kinafaa kwa kuandamana na wakati wako wa kupumzika."
       },
       "jus-oner-embe-energy-novida-power-tangawizi": {
-        "name": "Jus Oner / Novida / Power",
-        "description": "Vinywaji mbalimbali vya kuongeza nguvu."
+        "name": "Jus Oner Embe Energy Novida Power Tangawizi",
+        "description": "Chaguo la vinywaji baridi na vya kuongeza nguvu vyenye ladha mbalimbali kwa kila ladha."
       },
       "canette-coconut-water": {
-        "name": "Canette Coconut water",
-        "description": "Maji ya nazi asilia yanayoburudisha."
+        "name": "Maji ya Nazi ya Kopo",
+        "description": "Maji ya nazi ya Vinut yanayoburudisha asilia, mepesi na yanafaa kwa unyevu wa kitropiki."
       },
       "power7-water-bottle": {
-        "name": "Maji ya Power 7",
-        "description": "Maji safi ya kunywa."
+        "name": "Chupa ya Maji ya Power 7",
+        "description": "Maji safi ya madini na yanayoburudisha kwa ajili ya afya wakati wowote wa mchana."
       },
       "fromage": {
-        "name": "Fromage",
-        "description": "Jibini mbichi yenye ladha nzuri."
+        "name": "Fromage (Jibini)",
+        "description": "Fromage mbichi yenye ladha nzuri na ya cream, inafaa kwa milo yako na vitafunio. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
-        "name": "Canette Bavaria",
-        "description": "Kinywaji cha Bavaria chenye ladha nzuri."
+        "name": "Bavaria ya Kopo",
+        "description": "Kinywaji cha Bavaria baridi na chenye gesi, kinafaa kwa mapumziko yanayoburudisha na ladha tele."
       },
       "malti-apple": {
-        "name": "Jus Malti Pomme",
-        "description": "Kinywaji chenye ladha nzuri ya tofaa."
+        "name": "Malti ya Tofaa",
+        "description": "Kinywaji chenye ladha tamu ya tofaa, laini, baridi na kinapendeza kunywa kikiwa baridi sana."
       },
       "vinut-strawberry-juice-canette": {
-        "name": "Canette Vinut strawberry",
-        "description": "Kinywaji chenye ladha kali ya jordaraji."
+        "name": "Jus ya Strawberry ya Vinut ya Kopo",
+        "description": "Kinywaji cha matunda chenye ladha kali ya strawberry, kinaburudisha na chenye utamu tele."
       },
       "fretins-frits": {
-        "name": "Sambazaa ya ku kalangiwa",
-        "description": "Sambazaa waliokaangwa vizuri."
+        "name": "Sambaza Waliokaangwa",
+        "description": "Sambaza waliokaangwa kwa weledi, wakavu na watamu, wanafaa kuandamana na milo yako. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
-        "name": "Sambazaa ya mbichi",
-        "description": "Sambazaa mbichi kutoka Goma."
+        "name": "Sambaza Mbichi",
+        "description": "Sambaza mbichi kutoka Goma waliochaguliwa kwa uangalifu ili kuhakikisha usafi na ubora. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {
-        "name": "Omelette",
-        "description": "Omelette ya kawaida, moto na tamu."
+        "name": "Omeleti ya Kawaida",
+        "description": "Omeleti rahisi, ya moto na tamu, iliyoandaliwa na mayai mabichi. Yai 1 = 1000fc"
       },
       "jus-apple-punch": {
-        "name": "Jus Apple Punch",
-        "description": "Kinywaji kinachoburudisha na ladha ya tofaa."
+        "name": "Jus ya Apple Punch",
+        "description": "Kinywaji kinachoburudisha chenye ladha nzuri ya tofaa, kinafaa kukata kiu kwa furaha."
       },
       "fanta-orange-cocacola-afia-novida": {
-        "name": "Vinywaji mbalimbali",
-        "description": "Mchanganyiko wa soda (Fanta, Coca, Afia)."
+        "name": "fanta-orange-cocacola-afia-novida",
+        "description": "Chaguo la vinywaji maarufu na vinavyoburudisha kwa ajili ya kuandamana na wakati wako wote wa furaha."
       }
     }
   },

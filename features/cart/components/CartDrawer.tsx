@@ -73,7 +73,7 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                 </div>
 
                 <div className="flex-1 min-w-0">
-                  <h3 className="text-sm font-bold text-zinc-900 dark:text-zinc-50 truncate">
+                  <h3 className="text-sm font-bold text-zinc-900 dark:text-zinc-50">
                     {item.name}
                   </h3>
                   <div className="mt-1">

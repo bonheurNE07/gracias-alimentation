@@ -82,7 +82,7 @@ If the user clicks the item card itself (not the checkbox), a popup modal must o
 ## Popup Modal Must Include
 
 * large image
-* short description
+* short 
 * price
 * quantity selector
 * add to cart button

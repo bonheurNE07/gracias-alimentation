@@ -22,7 +22,7 @@
     },
     "items": {
       "omelette-frites": {
-        "name": "Omelette au frites",
+        "name": "Omelette au frittes",
         "description": "Une savoureuse omelette accompagnée de frites dorées et croustillantes, parfaite pour un repas simple et gourmand."
       },
       "omelette-saucisse": {
@@ -35,7 +35,7 @@
       },
       "jus-multifruits": {
         "name": "Jus Multifruits",
-        "description": "Un mélange rafraîchissant d'ananas, maracuja et mangue pour une boisson naturellement fruitée et pleine de saveurs. 1/2l = 3000fc 1l = 6000fc"
+        "description": "Un mélange rafraîchissant d’ananas, maracuja et mangue pour une boisson naturellement fruitée et pleine de saveurs. 1/2l = 3000fc 1l = 6000fc"
       },
       "jus-maracuja": {
         "name": "Jus de maracuja",
@@ -58,7 +58,7 @@
         "description": "Boisson rafraîchissante au goût agréable, parfaite pour accompagner vos moments de détente."
       },
       "jus-oner-embe-energy-novida-power-tangawizi": {
-        "name": "Mix Oner / Novida / Power",
+        "name": "Jus Oner Embe Enery Novida Power Tangawizi",
         "description": "Une sélection de boissons fraîches et énergisantes aux saveurs variées pour tous les goûts."
       },
       "canette-coconut-water": {
@@ -66,7 +66,7 @@
         "description": "Eau de coco Vinut naturellement rafraîchissante, légère et idéale pour une hydratation tropicale."
       },
       "power7-water-bottle": {
-        "name": "Eau Power 7",
+        "name": "Power 7 water bottle",
         "description": "Eau minérale pure et rafraîchissante pour une hydratation saine à tout moment de la journée."
       },
       "fromage": {
@@ -82,7 +82,7 @@
         "description": "Boisson au délicieux goût de pomme, douce, fraîche et agréable à savourer bien fraîche."
       },
       "vinut-strawberry-juice-canette": {
-        "name": "Jus de Fraise Vinut",
+        "name": "Vinut Strawberry Juice Canette",
         "description": "Une boisson fruitée au goût intense de fraise, rafraîchissante et pleine de douceur."
       },
       "fretins-frits": {
@@ -102,7 +102,7 @@
         "description": "Boisson rafraîchissante au bon goût de pomme, parfaite pour se désaltérer avec plaisir."
       },
       "fanta-orange-cocacola-afia-novida": {
-        "name": "Soda Mix",
+        "name": "fanta-orange-cocacola-afia-novida",
         "description": "Une sélection de boissons populaires et rafraîchissantes pour accompagner tous vos moments de plaisir."
       }
     }
