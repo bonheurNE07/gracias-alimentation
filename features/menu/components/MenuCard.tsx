@@ -3,6 +3,7 @@
 import { MenuItem } from '@/types/menu';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 interface MenuCardProps {
   item: MenuItem;
@@ -10,6 +11,8 @@ interface MenuCardProps {
 }
 
 export default function MenuCard({ item, onSelect }: MenuCardProps) {
+  const t = useTranslations('Menu.items');
+
   return (
     <motion.div 
       onClick={() => onSelect(item)}
@@ -32,10 +35,10 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
       <div className="p-4 flex-1 flex flex-col justify-between">
         <div>
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-50 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
-            {item.name}
+            {t.has(`${item.id}.name`) ? t(`${item.id}.name`) : item.name}
           </h3>
           <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400 line-clamp-2">
-            {item.description}
+            {t.has(`${item.id}.description`) ? t(`${item.id}.description`) : item.description}
           </p>
         </div>
 
@@ -74,4 +77,3 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
     </motion.div>
   );
 }
-

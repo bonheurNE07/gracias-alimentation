@@ -12,11 +12,99 @@
   "Menu": {
     "quantity": "Kiasi",
     "addToCart": "Ongeza kwenye kapu",
+    "searchPlaceholder": "Tafuta chakula...",
+    "noResults": "Hakuna chakula kinachopatikana sasa.",
     "categories": {
       "all": "Zote",
       "breakfast": "Kifungua kinywa",
       "snacks": "Vyakula vidogo",
       "drinks": "Vinywaji"
+    },
+    "items": {
+      "omelette-frites": {
+        "name": "Omeleti na viazi",
+        "description": "Omeleti tamu na viazi vilivyokaangwa vizuri."
+      },
+      "omelette-saucisse": {
+        "name": "Omeleti na soseji",
+        "description": "Omeleti tamu iliyo na vipande vya soseji."
+      },
+      "kwanga-saucisse": {
+        "name": "Kwanga na soseji",
+        "description": "Kwanga laini inayopakuliwa na soseji zilizochomwa vizuri."
+      },
+      "jus-multifruits": {
+        "name": "Juisi ya matunda mseto",
+        "description": "Mchanganyiko wa nanasi, pasheni na embe."
+      },
+      "jus-maracuja": {
+        "name": "Juisi ya pasheni",
+        "description": "Juisi mbichi ya pasheni yenye ladha nzuri."
+      },
+      "lait-frais": {
+        "name": "Maziwa mabichi",
+        "description": "Maziwa matamu na yenye lishe kwa ajili ya afya."
+      },
+      "saucisses-kilo": {
+        "name": "Soseji (kilo 1)",
+        "description": "Soseji tamu na za hali ya juu."
+      },
+      "jus-sprite": {
+        "name": "Juisi ya Sprite",
+        "description": "Kinywaji chenye gesi na ladha ya limau."
+      },
+      "jus-oner": {
+        "name": "Juisi ya Oner",
+        "description": "Kinywaji kinachoburudisha na ladha nzuri."
+      },
+      "jus-oner-embe-energy-novida-power-tangawizi": {
+        "name": "Mchanganyiko wa Oner / Novida / Power",
+        "description": "Vinywaji mbalimbali vya kuongeza nguvu."
+      },
+      "canette-coconut-water": {
+        "name": "Maji ya nazi (kopo)",
+        "description": "Maji ya nazi asilia yanayoburudisha."
+      },
+      "power7-water-bottle": {
+        "name": "Maji ya Power 7",
+        "description": "Maji safi ya kunywa."
+      },
+      "fromage": {
+        "name": "Jibini",
+        "description": "Jibini mbichi yenye ladha nzuri."
+      },
+      "canette-bavaria": {
+        "name": "Bavaria (kopo)",
+        "description": "Kinywaji cha Bavaria chenye ladha nzuri."
+      },
+      "malti-apple": {
+        "name": "Malti ya tofaa",
+        "description": "Kinywaji chenye ladha nzuri ya tofaa."
+      },
+      "vinut-strawberry-juice-canette": {
+        "name": "Juisi ya jordaraji (Vinut)",
+        "description": "Kinywaji chenye ladha kali ya jordaraji."
+      },
+      "fretins-frits": {
+        "name": "Fretins waliokaangwa",
+        "description": "Samaki wadogo watamu na waliokaangwa vizuri."
+      },
+      "fretins-frais": {
+        "name": "Fretins wabichi",
+        "description": "Samaki wadogo wabichi kutoka Goma."
+      },
+      "omelette": {
+        "name": "Omeleti",
+        "description": "Omeleti ya kawaida, moto na tamu."
+      },
+      "jus-apple-punch": {
+        "name": "Juisi ya Apple Punch",
+        "description": "Kinywaji kinachoburudisha na ladha ya tofaa."
+      },
+      "fanta-orange-cocacola-afia-novida": {
+        "name": "Vinywaji mbalimbali",
+        "description": "Mchanganyiko wa soda (Fanta, Coca, Afia)."
+      }
     }
   },
   "Cart": {
@@ -34,9 +122,8 @@
     "homeDelivery": "Kuletwa nyumbani",
     "phone": "Namba ya simu",
     "address": "Anwani",
-    "cancel": "Address",
+    "cancel": "Ghairi",
     "submit": "Thibitisha kwenye WhatsApp",
-
     "errors": {
       "name": "Tafadhali ingiza jina lako",
       "phone": "Tafadhali ingiza namba ya simu",

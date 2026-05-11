@@ -12,11 +12,99 @@
   "Menu": {
     "quantity": "Obungi",
     "addToCart": "Yongeraho mu kitunga",
+    "searchPlaceholder": "Sonda ebyakulya...",
+    "noResults": "Ebyakulya bino tebiriwo lino.",
     "categories": {
       "all": "Byosi",
       "breakfast": "Ekyengetse",
       "snacks": "Ebyakulya bike",
       "drinks": "Ebyakunwa"
+    },
+    "items": {
+      "omelette-frites": {
+        "name": "Omelete n'ebiribwa",
+        "description": "Omelete eyuwasene n'ebiribwa ebinuhene."
+      },
+      "omelette-saucisse": {
+        "name": "Omelete na sosis",
+        "description": "Omelete eyuwene eyiri mwa sosis."
+      },
+      "kwanga-saucisse": {
+        "name": "Kwanga na sosis",
+        "description": "Kwanga eyoro eyikaletwa na sosis esyokehene."
+      },
+      "jus-multifruits": {
+        "name": "Jus y'ebitunda bingi",
+        "description": "Jus eyuwene ey'enanasi, pasio na mangi."
+      },
+      "jus-maracuja": {
+        "name": "Jus y'apasio",
+        "description": "Jus y'apasio eyuwasene kandi eyunono."
+      },
+      "lait-frais": {
+        "name": "Amate amasisya",
+        "description": "Amate amasisya kandi awawene."
+      },
+      "saucisses-kilo": {
+        "name": "Sosis (kilo 1)",
+        "description": "Sosis esyuwene kandi esy'ebeyi."
+      },
+      "jus-sprite": {
+        "name": "Jus y'Sprite",
+        "description": "Ekinywa ekiri mw'egazi kandi ekirunono."
+      },
+      "jus-oner": {
+        "name": "Jus y'Oner",
+        "description": "Ekinywa ekiri mw'egazi ekirunono."
+      },
+      "jus-oner-embe-energy-novida-power-tangawizi": {
+        "name": "Mix y'Oner / Novida / Power",
+        "description": "Ekinywa ekiri mw'egazi bingi."
+      },
+      "canette-coconut-water": {
+        "name": "Amaghetse w'enasi",
+        "description": "Amaghetse w'enasi awasisya."
+      },
+      "power7-water-bottle": {
+        "name": "Amaghetse w'Power 7",
+        "description": "Amaghetse awawene w'okunwa."
+      },
+      "fromage": {
+        "name": "Fromage",
+        "description": "Fromage eyuwasene kandi eyunono."
+      },
+      "canette-bavaria": {
+        "name": "Bavaria",
+        "description": "Ekinywa ekiri mw'egazi ekirunono."
+      },
+      "malti-apple": {
+        "name": "Malti y'epome",
+        "description": "Ekinywa ekiruhene eky'epome."
+      },
+      "vinut-strawberry-juice-canette": {
+        "name": "Jus y'efreze Vinut",
+        "description": "Jus eyuwene ey'efreze."
+      },
+      "fretins-frits": {
+        "name": "Efretin esyokehene",
+        "description": "Efretin esyuwene kandi esyokehene."
+      },
+      "fretins-frais": {
+        "name": "Efretin esyasisya",
+        "description": "Efretin esyasisya erisiga e Goma."
+      },
+      "omelette": {
+        "name": "Omelete",
+        "description": "Omelete eyuwasene kandi eyunono."
+      },
+      "jus-apple-punch": {
+        "name": "Jus y'Apple Punch",
+        "description": "Ekinywa ekiruhene eky'epome."
+      },
+      "fanta-orange-cocacola-afia-novida": {
+        "name": "Mix y'ebinywa",
+        "description": "Mix y'ebinywa (Fanta, Coca, Afia)."
+      }
     }
   },
   "Cart": {
@@ -36,7 +124,6 @@
     "address": "Endagiriro",
     "cancel": "Reka",
     "submit": "Tuma ku WhatsApp",
-
     "errors": {
       "name": "Wandika erina ryawo",
       "phone": "Wandika esimu yo",

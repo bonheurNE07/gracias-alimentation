@@ -18,13 +18,20 @@ export default function MenuGrid({ items }: MenuGridProps) {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const t = useTranslations('Menu');
+  const mt = useTranslations('Menu.items');
 
   const categories = ['all', 'breakfast', 'snacks', 'drinks'];
 
   const filteredItems = items.filter((item) => {
     const matchesCategory = activeCategory === 'all' || item.category === activeCategory;
-    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          item.description.toLowerCase().includes(searchQuery.toLowerCase());
+    
+    // Localized search
+    const itemName = mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name;
+    const itemDescription = mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description;
+    
+    const matchesSearch = itemName.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                          itemDescription.toLowerCase().includes(searchQuery.toLowerCase());
+                          
     return matchesCategory && matchesSearch;
   });
 
@@ -41,7 +48,7 @@ export default function MenuGrid({ items }: MenuGridProps) {
           type="search"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder="Rechercher un plat..."
+          placeholder={t('searchPlaceholder')}
           className="block w-full p-3.5 pl-12 text-sm text-zinc-900 dark:text-zinc-50 bg-white/70 dark:bg-zinc-900/70 border border-zinc-200/50 dark:border-zinc-800/50 rounded-2xl shadow-sm focus:ring-2 focus:ring-emerald-500 focus:outline-none focus:border-emerald-500 backdrop-blur-md transition-all duration-300"
         />
       </div>
@@ -66,7 +73,7 @@ export default function MenuGrid({ items }: MenuGridProps) {
       {filteredItems.length === 0 ? (
         <div className="text-center py-12">
           <p className="text-zinc-500 dark:text-zinc-400">
-            Aucun plat disponible.
+            {t('noResults')}
           </p>
         </div>
       ) : (

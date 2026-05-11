@@ -2,109 +2,190 @@
   {
     "id": "omelette-frites",
     "name": "Omelette au frittes",
-    "description": "Une délicieuse omelette accompagnée de frites croustillantes.",
-    "price_usd": 2.5,
-    "price_cdf": 6250,
+    "description": "Une savoureuse omelette accompagnée de frites dorées et croustillantes, parfaite pour un repas simple et gourmand.",
+    "price_usd": 2.17,
+    "price_cdf": 5000,
     "category": "breakfast",
     "image": "/images/omelette-frites.png"
   },
   {
     "id": "omelette-saucisse",
     "name": "Omelette au saucisse",
-    "description": "Omelette savoureuse garnie de morceaux de saucisse.",
+    "description": "Délicieuse omelette garnie de morceaux de saucisse savoureux pour un petit-déjeuner riche et satisfaisant.",
     "price_usd": 3.0,
     "price_cdf": 7500,
     "category": "breakfast",
-    "image": "/images/omelette-saucisse.png"
-  },
-  {
-    "id": "omelette-sardine",
-    "name": "Omelette au sardine",
-    "description": "Omelette riche et parfumée à la sardine.",
-    "price_usd": 3.5,
-    "price_cdf": 8750,
-    "category": "breakfast",
-    "image": "/images/omelette-sardine.png"
+    "image": "/images/omelette-au-socises.png"
   },
   {
     "id": "kwanga-saucisse",
     "name": "Kwanga et saucisse",
-    "description": "Bâton de manioc (kwanga) servi avec des saucisses grillées.",
-    "price_usd": 2.0,
-    "price_cdf": 5000,
+    "description": "Kwanga tendre servi avec des saucisses grillées au goût authentique, idéal pour une pause gourmande.",
+    "price_usd": 4.34,
+    "price_cdf": 10000,
     "category": "snacks",
     "image": "/images/kwanga-saucisse.png"
   },
   {
+    "id": "jus-multifruits",
+    "name": "Jus Multifruits",
+    "description": "Un mélange rafraîchissant d’ananas, maracuja et mangue pour une boisson naturellement fruitée et pleine de saveurs. 1/2l = 3000fc 1l = 6000fc",
+    "price_usd": 1.3,
+    "price_cdf": 3000,
+    "category": "drinks",
+    "image": "/images/jus-multifruits.png"
+  },
+  {
     "id": "jus-maracuja",
-    "name": "Jus de Maracuja",
-    "description": "Jus de fruits de la passion frais et naturel.",
-    "price_usd": 2.0,
-    "price_cdf": 5000,
+    "name": "Jus de maracuja",
+    "description": "Jus de maracuja frais au goût exotique et légèrement acidulé, parfait pour se rafraîchir à tout moment. 1/2l = 2000fc",
+    "price_usd": 0.86,
+    "price_cdf": 2000,
     "category": "drinks",
     "image": "/images/jus-maracuja.png"
   },
   {
-    "id": "jus-ananas",
-    "name": "Jus d'Ananas",
-    "description": "Jus d'ananas frais et rafraîchissant.",
-    "price_usd": 2.0,
-    "price_cdf": 5000,
-    "category": "drinks",
-    "image": "/images/jus-ananas.png"
-  },
-  {
     "id": "lait-frais",
     "name": "Lait Frais",
-    "description": "Un verre de lait frais et nutritif.",
+    "description": "Un lait frais, doux et nutritif, idéal pour bien commencer la journée.",
     "price_usd": 1.5,
     "price_cdf": 3750,
     "category": "drinks",
     "image": "/images/lait-frais.png"
   },
   {
-    "id": "fanta",
-    "name": "Fanta",
-    "description": "Boisson gazeuse Fanta orange.",
-    "price_usd": 1.0,
-    "price_cdf": 2500,
-    "category": "drinks",
-    "image": "/images/fanta.png"
-  },
-  {
-    "id": "coca-cola",
-    "name": "Coca-Cola",
-    "description": "Boisson gazeuse Coca-Cola classique.",
-    "price_usd": 1.0,
-    "price_cdf": 2500,
-    "category": "drinks",
-    "image": "/images/coca-cola.png"
-  },
-  {
-    "id": "eau-minerale",
-    "name": "Eau Minérale",
-    "description": "Bouteille d'eau minérale pure.",
-    "price_usd": 0.5,
-    "price_cdf": 1250,
-    "category": "drinks",
-    "image": "/images/eau-minerale.png"
-  },
-  {
     "id": "saucisses-kilo",
     "name": "Saucisses (1kg)",
-    "description": "Un kilo de saucisses de qualité supérieure.",
-    "price_usd": 10.0,
-    "price_cdf": 25000,
-    "category": "snacks",
-    "image": "/images/saucisses-kilo.png"
-  },
-  {
-    "id": "sambusa-kilo",
-    "name": "Sambusa (1kg)",
-    "description": "Un kilo de sambusa croustillants et savoureux.",
+    "description": "Des saucisses savoureuses et de qualité supérieure, parfaites pour vos grillades et repas en famille. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc",
     "price_usd": 12.0,
     "price_cdf": 30000,
     "category": "snacks",
-    "image": "/images/sambusa-kilo.png"
+    "image": "/images/saucisses-kilo-image1.png, /images/saucisses-kilo-image2.png"
+  },
+  {
+    "id": "jus-sprite",
+    "name": "Jus Sprite",
+    "description": "Une boisson pétillante au goût citronné, fraîche et désaltérante à chaque gorgée.",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "drinks",
+    "image": "/images/jus-sprite.png"
+  },
+  {
+    "id": "jus-oner",
+    "name": "Jus Oner",
+    "description": "Boisson rafraîchissante au goût agréable, parfaite pour accompagner vos moments de détente.",
+    "price_usd": 1.08,
+    "price_cdf": 2500,
+    "category": "drinks",
+    "image": "/images/jus-oner.png"
+  },
+  {
+    "id": "jus-oner-embe-energy-novida-power-tangawizi",
+    "name": "Jus Oner Embe Enery Novida Power Tangawizi",
+    "description": "Une sélection de boissons fraîches et énergisantes aux saveurs variées pour tous les goûts.",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "drinks",
+    "image": "/images/Power-tangawizi_Energy-drink_Oner_Embe_Novida.png"
+  },
+  {
+    "id": "canette-coconut-water",
+    "name": "Canette Coconut Water",
+    "description": "Eau de coco Vinut naturellement rafraîchissante, légère et idéale pour une hydratation tropicale.",
+    "price_usd": 1.3,
+    "price_cdf": 3000,
+    "category": "drinks",
+    "image": "/images/canette-coconu-water.png"
+  },
+  {
+    "id": "power7-water-bottle",
+    "name": "Power 7 water bottle",
+    "description": "Eau minérale pure et rafraîchissante pour une hydratation saine à tout moment de la journée.",
+    "price_usd": 0.86,
+    "price_cdf": 2000,
+    "category": "drinks",
+    "image": "/images/power7-water-bottle.png"
+  },
+  {
+    "id": "fromage",
+    "name": "Fromage",
+    "description": "Fromage frais au goût riche et crémeux, parfait pour vos repas et collations. 1/4kg = 5000fc 1/2kg = 10000fc",
+    "price_usd": 0.86,
+    "price_cdf": 20000,
+    "category": "snacks",
+    "image": "/images/frommage.png"
+  },
+  {
+    "id": "canette-bavaria",
+    "name": "Canette Bavaria",
+    "description": "Boisson Bavaria fraîche et pétillante, idéale pour une pause rafraîchissante et pleine de saveurs.",
+    "price_usd": 2.2,
+    "price_cdf": 5000,
+    "category": "drinks",
+    "image": "/images/canette-bavaria.png"
+  },
+  {
+    "id": "malti-apple",
+    "name": "Malti Apple",
+    "description": "Boisson au délicieux goût de pomme, douce, fraîche et agréable à savourer bien fraîche.",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "drinks",
+    "image": "/images/malti-apple.png"
+  },
+  {
+    "id": "vinut-strawberry-juice-canette",
+    "name": "Vinut Strawberry Juice Canette",
+    "description": "Une boisson fruitée au goût intense de fraise, rafraîchissante et pleine de douceur.",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "drinks",
+    "image": "/images/vibrant-vinut-strawberry-juice-canette.png"
+  },
+  {
+    "id": "fretins-frits",
+    "name": "Fretins Frits",
+    "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12000fc 1kg = 24000fc",
+    "price_usd": 10.43,
+    "price_cdf": 24000,
+    "category": "snacks",
+    "image": "/images/fretins-frits.png"
+  },
+  {
+    "id": "fretins-frais",
+    "name": "Fretins Frais",
+    "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc",
+    "price_usd": 10.86,
+    "price_cdf": 24000,
+    "category": "snacks",
+    "image": "/images/fretins-frais.png"
+  },
+  {
+    "id": "omelette",
+    "name": "Omelette",
+    "description": "Une omelette simple, chaude et savoureuse, préparée avec des œufs frais. 1oeuf = 1000fc",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "breakfast",
+    "image": "/images/fretins-frais.png"
+  },
+  {
+    "id": "jus-apple-punch",
+    "name": "Jus Apple Punch",
+    "description": "Boisson rafraîchissante au bon goût de pomme, parfaite pour se désaltérer avec plaisir.",
+    "price_usd": 0.43,
+    "price_cdf": 1000,
+    "category": "drinks",
+    "image": "/images/appel-punch.png"
+  },
+  {
+    "id": "fanta-orange-cocacola-afia-novida",
+    "name": "fanta-orange-cocacola-afia-novida",
+    "description": "Une sélection de boissons populaires et rafraîchissantes pour accompagner tous vos moments de plaisir.",
+    "price_usd": 1.08,
+    "price_cdf": 2500,
+    "category": "drinks",
+    "image": "/images/fanta-orange-cocacola-afia-novida.png"
   }
 ]

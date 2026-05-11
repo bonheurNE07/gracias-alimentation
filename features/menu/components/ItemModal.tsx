@@ -20,6 +20,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
   const addItem = useCartStore((state) => state.addItem);
   const updateQuantity = useCartStore((state) => state.updateQuantity);
   const t = useTranslations('Menu');
+  const mt = useTranslations('Menu.items');
 
   const handleIncrement = () => setQuantity((prev) => prev + 1);
   const handleDecrement = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
@@ -62,7 +63,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         <div className="relative w-full h-64 sm:h-56 bg-zinc-100 dark:bg-zinc-800">
           <Image
             src={item.image}
-            alt={item.name}
+            alt={mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
             fill
             className="object-cover"
             priority
@@ -79,10 +80,10 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         {/* Content */}
         <div className="p-6 flex-1 overflow-y-auto">
           <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
-            {item.name}
+            {mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
           </h2>
           <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-            {item.description}
+            {mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description}
           </p>
 
           <div className="mt-4 flex items-center justify-between">
@@ -136,4 +137,3 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
     </motion.div>
   );
 }
-
