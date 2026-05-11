@@ -147,8 +147,8 @@
     "id": "fretins-frits",
     "name": "Fretins Frits",
     "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12500fc 1kg = 25000fc",
-    "price_usd": 10.86,
-    "price_cdf": 25000,
+    "price_usd": 5.43,
+    "price_cdf": 12500,
     "category": "snacks",
     "image": "/images/fretins-frits.png"
   },
@@ -156,8 +156,8 @@
     "id": "fretins-frais",
     "name": "Fretins Frais",
     "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc",
-    "price_usd": 10.43,
-    "price_cdf": 24000,
+    "price_usd": 5.21,
+    "price_cdf": 12000,
     "category": "snacks",
     "image": "/images/sambazaa.jpg"
   },
