@@ -63,24 +63,35 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           ✕
         </button>
 
-        {/* Image Section - More immersive height */}
-        <div className="relative w-full h-72 sm:h-80 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
+        {/* Image Section - Blurred Background + Full Image Foreground */}
+        <div className="relative w-full h-72 sm:h-96 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0 group">
+          {/* Blurred Background Layer */}
+          <div className="absolute inset-0 scale-110 blur-2xl opacity-40 dark:opacity-30">
+            <Image
+              src={item.image}
+              alt=""
+              fill
+              className="object-cover"
+            />
+          </div>
+
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }}
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 1.05 }}
             transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
-            className="relative w-full h-full cursor-zoom-in"
+            className="relative w-full h-full cursor-zoom-in flex items-center justify-center p-4"
           >
             <Image
               src={item.image}
               alt={mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
               fill
-              className="object-cover"
+              className="object-contain drop-shadow-2xl"
               priority
             />
-            {/* Subtle Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
           </motion.div>
+
+          {/* Subtle Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent pointer-events-none" />
 
           {/* Close button for mobile */}
           <button
