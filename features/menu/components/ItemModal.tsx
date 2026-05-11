@@ -48,22 +48,26 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}
         transition={{ type: 'spring', damping: 25, stiffness: 250 }}
-        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[90vh] flex flex-col relative"
+        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-[2.5rem] sm:rounded-[2rem] overflow-hidden shadow-2xl max-h-[95vh] flex flex-col relative"
       >
+        {/* Mobile Drag Handle */}
+        <div className="flex sm:hidden justify-center pt-3 pb-1 absolute top-0 w-full z-20">
+          <div className="w-12 h-1.5 rounded-full bg-zinc-300 dark:bg-zinc-700 opacity-50" />
+        </div>
 
         {/* Close button for desktop */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 hidden sm:flex items-center justify-center w-8 h-8 rounded-full bg-black/50 text-white hover:bg-black/70 transition-colors"
+          className="absolute top-5 right-5 z-20 hidden sm:flex items-center justify-center w-10 h-10 rounded-full bg-white/20 backdrop-blur-md text-white border border-white/30 hover:bg-white/30 transition-all duration-200"
         >
           ✕
         </button>
 
-        {/* Image - Reduced height to allow more space for description */}
-        <div className="relative w-full h-40 sm:h-44 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
+        {/* Image Section - More immersive height */}
+        <div className="relative w-full h-72 sm:h-80 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
           <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 1.25 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
             transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
             className="relative w-full h-full cursor-zoom-in"
           >
@@ -74,69 +78,78 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
               className="object-cover"
               priority
             />
+            {/* Subtle Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
           </motion.div>
+
           {/* Close button for mobile */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 flex sm:hidden items-center justify-center w-8 h-8 rounded-full bg-black/50 text-white"
+            className="absolute top-5 right-5 z-20 flex sm:hidden items-center justify-center w-9 h-9 rounded-full bg-black/30 backdrop-blur-md text-white border border-white/20"
           >
             ✕
           </button>
         </div>
 
-        {/* Content - Scrollable with proper spacing */}
-        <div className="p-4 sm:p-6 flex-1 overflow-y-auto">
-          <h2 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-50">
-            {mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
-          </h2>
-          <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
-            {mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description}
-          </p>
-
-          <div className="mt-4 flex items-center justify-between">
-            <div>
-              <p className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
+        {/* Content - Scrollable with refined typography */}
+        <div className="p-6 sm:p-8 flex-1 overflow-y-auto custom-scrollbar">
+          <div className="mb-6">
+            <h2 className="text-2xl sm:text-3xl font-black text-zinc-900 dark:text-zinc-50 tracking-tight leading-tight">
+              {mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
+            </h2>
+            <div className="mt-3 flex items-baseline gap-2">
+              <span className="text-2xl font-black text-emerald-600 dark:text-emerald-400">
                 {item.price_cdf.toLocaleString()} FC
-              </p>
-              <p className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
-                ${item.price_usd.toFixed(2)}
-              </p>
-
+              </span>
+              <span className="text-sm font-medium text-zinc-400 dark:text-zinc-500">
+                / ${item.price_usd.toFixed(2)}
+              </span>
             </div>
           </div>
 
-          {/* Quantity Selector */}
-          <div className="mt-4 flex items-center justify-between border-t border-b border-zinc-100 dark:border-zinc-800 py-3">
-            <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
-              {t('quantity')}
-            </span>
-            <div className="flex items-center gap-3">
-              <button
-                onClick={handleDecrement}
-                className="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-sm font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
-                disabled={quantity <= 1}
-              >
-                -
-              </button>
-              <span className="text-base font-bold w-5 text-center text-zinc-900 dark:text-zinc-50">
-                {quantity}
+          <div className="space-y-4 text-zinc-600 dark:text-zinc-400">
+            <p className="text-base leading-relaxed">
+              {mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description}
+            </p>
+          </div>
+
+          {/* Quantity Selector - More modern design */}
+          <div className="mt-8 pt-6 border-t border-zinc-100 dark:border-zinc-800">
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                {t('quantity')}
               </span>
-              <button
-                onClick={handleIncrement}
-                className="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-sm font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
-              >
-                +
-              </button>
+              <div className="flex items-center bg-zinc-100 dark:bg-zinc-800 p-1 rounded-full">
+                <button
+                  onClick={handleDecrement}
+                  className="w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold text-zinc-900 dark:text-zinc-50 hover:bg-white dark:hover:bg-zinc-700 shadow-sm transition-all disabled:opacity-30"
+                  disabled={quantity <= 1}
+                >
+                  −
+                </button>
+                <span className="text-lg font-black w-10 text-center text-zinc-900 dark:text-zinc-50">
+                  {quantity}
+                </span>
+                <button
+                  onClick={handleIncrement}
+                  className="w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold text-zinc-900 dark:text-zinc-50 hover:bg-white dark:hover:bg-zinc-700 shadow-sm transition-all"
+                >
+                  +
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Footer / Add button - Sticky */}
-        <div className="p-4 sm:p-6 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800 flex-shrink-0">
+        {/* Footer - Premium sticky bar */}
+        <div className="p-6 sm:p-8 bg-white dark:bg-zinc-900 border-t border-zinc-100 dark:border-zinc-800 flex-shrink-0">
           <button
             onClick={handleAddToCart}
-            className="w-full py-3 px-4 rounded-full bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white font-semibold shadow-md transition-colors duration-200"
+            className="w-full py-4 px-6 rounded-2xl bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white font-bold text-lg shadow-lg shadow-emerald-600/20 transition-all duration-200 flex items-center justify-center gap-3"
           >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
             {t('addToCart')}
           </button>
         </div>
