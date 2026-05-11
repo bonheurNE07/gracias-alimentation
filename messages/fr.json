@@ -23,23 +23,23 @@
     "items": {
       "omelette-frites": {
         "name": "Omelette au frites",
-        "description": "Une savoureuse omelette accompagnée de frites dorées et croustillantes."
+        "description": "Une savoureuse omelette accompagnée de frites dorées et croustillantes, parfaite pour un repas simple et gourmand."
       },
       "omelette-saucisse": {
         "name": "Omelette au saucisse",
-        "description": "Délicieuse omelette garnie de morceaux de saucisse savoureux."
+        "description": "Délicieuse omelette garnie de morceaux de saucisse savoureux pour un petit-déjeuner riche et satisfaisant."
       },
       "kwanga-saucisse": {
         "name": "Kwanga et saucisse",
-        "description": "Kwanga tendre servi avec des saucisses grillées au goût authentique."
+        "description": "Kwanga tendre servi avec des saucisses grillées au goût authentique, idéal pour une pause gourmande."
       },
       "jus-multifruits": {
         "name": "Jus Multifruits",
-        "description": "Un mélange rafraîchissant d’ananas, maracuja et mangue."
+        "description": "Un mélange rafraîchissant d'ananas, maracuja et mangue pour une boisson naturellement fruitée et pleine de saveurs. 1/2l = 3000fc 1l = 6000fc"
       },
       "jus-maracuja": {
         "name": "Jus de maracuja",
-        "description": "Jus de maracuja frais au goût exotique et légèrement acidulé."
+        "description": "Jus de maracuja frais au goût exotique et légèrement acidulé, parfait pour se rafraîchir à tout moment. 1/2l = 2000fc"
       },
       "lait-frais": {
         "name": "Lait Frais",
@@ -47,63 +47,63 @@
       },
       "saucisses-kilo": {
         "name": "Saucisses (1kg)",
-        "description": "Saucisses savoureuses et de qualité supérieure."
+        "description": "Des saucisses savoureuses et de qualité supérieure, parfaites pour vos grillades et repas en famille. 1kg = 30000fc, 100g = 3500fc, 1/2kg = 15000fc"
       },
       "jus-sprite": {
         "name": "Jus Sprite",
-        "description": "Boisson pétillante au goût citronné, fraîche et désaltérante."
+        "description": "Une boisson pétillante au goût citronné, fraîche et désaltérante à chaque gorgée."
       },
       "jus-oner": {
         "name": "Jus Oner",
-        "description": "Boisson rafraîchissante au goût agréable."
+        "description": "Boisson rafraîchissante au goût agréable, parfaite pour accompagner vos moments de détente."
       },
       "jus-oner-embe-energy-novida-power-tangawizi": {
         "name": "Mix Oner / Novida / Power",
-        "description": "Une sélection de boissons fraîches et énergisantes."
+        "description": "Une sélection de boissons fraîches et énergisantes aux saveurs variées pour tous les goûts."
       },
       "canette-coconut-water": {
         "name": "Canette Coconut Water",
-        "description": "Eau de coco Vinut naturellement rafraîchissante."
+        "description": "Eau de coco Vinut naturellement rafraîchissante, légère et idéale pour une hydratation tropicale."
       },
       "power7-water-bottle": {
         "name": "Eau Power 7",
-        "description": "Eau minérale pure et rafraîchissante."
+        "description": "Eau minérale pure et rafraîchissante pour une hydratation saine à tout moment de la journée."
       },
       "fromage": {
         "name": "Fromage",
-        "description": "Fromage frais au goût riche et crémeux."
+        "description": "Fromage frais au goût riche et crémeux, parfait pour vos repas et collations. 1/4kg = 5000fc 1/2kg = 10000fc"
       },
       "canette-bavaria": {
         "name": "Canette Bavaria",
-        "description": "Boisson Bavaria fraîche et pétillante."
+        "description": "Boisson Bavaria fraîche et pétillante, idéale pour une pause rafraîchissante et pleine de saveurs."
       },
       "malti-apple": {
         "name": "Malti Apple",
-        "description": "Boisson au délicieux goût de pomme."
+        "description": "Boisson au délicieux goût de pomme, douce, fraîche et agréable à savourer bien fraîche."
       },
       "vinut-strawberry-juice-canette": {
         "name": "Jus de Fraise Vinut",
-        "description": "Boisson fruitée au goût intense de fraise."
+        "description": "Une boisson fruitée au goût intense de fraise, rafraîchissante et pleine de douceur."
       },
       "fretins-frits": {
         "name": "Fretins Frits",
-        "description": "Fretins frits croustillants et savoureux."
+        "description": "Fretins frits croustillants et savoureux, parfaits pour accompagner vos repas ou apéritifs. 1/2kg = 12500fc 1kg = 25000fc"
       },
       "fretins-frais": {
         "name": "Fretins Frais",
-        "description": "Fretins frais de Goma soigneusement sélectionnés."
+        "description": "Fretins frais de Goma soigneusement sélectionnés pour garantir fraîcheur et qualité. 1/2kg = 12000fc 1kg = 24000fc"
       },
       "omelette": {
         "name": "Omelette",
-        "description": "Une omelette simple, chaude et savoureuse."
+        "description": "Une omelette simple, chaude et savoureuse, préparée avec des œufs frais. 1oeuf = 1000fc"
       },
       "jus-apple-punch": {
         "name": "Jus Apple Punch",
-        "description": "Boisson rafraîchissante au bon goût de pomme."
+        "description": "Boisson rafraîchissante au bon goût de pomme, parfaite pour se désaltérer avec plaisir."
       },
       "fanta-orange-cocacola-afia-novida": {
         "name": "Soda Mix",
-        "description": "Sélection de boissons populaires (Fanta, Coca, Afia)."
+        "description": "Une sélection de boissons populaires et rafraîchissantes pour accompagner tous vos moments de plaisir."
       }
     }
   },
@@ -132,7 +132,7 @@
   },
   "Errors": {
     "notFoundTitle": "Page introuvable",
-    "notFoundDesc": "Oups ! Ce plat n’est plus disponible ou la page a changé.",
+    "notFoundDesc": "Oups ! Ce plat n'est plus disponible ou la page a changé.",
     "backToMenu": "Retour au menu"
   }
 }
