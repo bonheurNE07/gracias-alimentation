@@ -60,7 +60,7 @@
     "price_usd": 12.0,
     "price_cdf": 30000,
     "category": "snacks",
-    "image": "/images/saucisses-kilo-image1.png, /images/saucisses-kilo-image2.png"
+    "image": "/images/saucisses-kilo-image1.png"
   },
   {
     "id": "jus-sprite",
@@ -159,7 +159,7 @@
     "price_usd": 10.86,
     "price_cdf": 24000,
     "category": "snacks",
-    "image": "/images/fretins-frais.png"
+    "image": "/images/sambazaa.jpg"
   },
   {
     "id": "omelette",
@@ -168,7 +168,7 @@
     "price_usd": 0.43,
     "price_cdf": 1000,
     "category": "breakfast",
-    "image": "/images/fretins-frais.png"
+    "image": "/images/omelette.png"
   },
   {
     "id": "jus-apple-punch",
