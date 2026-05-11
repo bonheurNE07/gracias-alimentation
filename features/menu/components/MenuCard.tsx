@@ -23,13 +23,19 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
     >
 
       <div className="relative w-full h-48 bg-zinc-100 dark:bg-zinc-800 overflow-hidden">
-        <Image
-          src={item.image}
-          alt={item.name}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
+        <motion.div
+          whileHover={{ scale: 1.15, filter: 'brightness(1.05) contrast(1.05)' }}
+          transition={{ duration: 0.7, ease: [0.33, 1, 0.68, 1] }}
+          className="relative w-full h-full"
+        >
+          <Image
+            src={item.image}
+            alt={item.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </motion.div>
       </div>
 
       <div className="p-4 flex-1 flex flex-col justify-between">
