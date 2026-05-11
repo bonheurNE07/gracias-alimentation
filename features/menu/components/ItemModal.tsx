@@ -48,7 +48,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}
         transition={{ type: 'spring', damping: 25, stiffness: 250 }}
-        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[95vh] flex flex-col relative"
+        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[90vh] flex flex-col relative"
       >
 
         {/* Close button for desktop */}
@@ -59,8 +59,8 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           ✕
         </button>
 
-        {/* Image */}
-        <div className="relative w-full h-48 sm:h-56 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
+        {/* Image - Reduced height to allow more space for description */}
+        <div className="relative w-full h-40 sm:h-44 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.25 }}
@@ -84,12 +84,12 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           </button>
         </div>
 
-        {/* Content - Scrollable */}
-        <div className="p-6 flex-1 overflow-y-auto min-h-0">
-          <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
+        {/* Content - Scrollable with proper spacing */}
+        <div className="p-4 sm:p-6 flex-1 overflow-y-auto">
+          <h2 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
           </h2>
-          <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400 whitespace-pre-wrap break-words">
+          <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
             {mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description}
           </p>
 
@@ -98,7 +98,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
               <p className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
                 {item.price_cdf.toLocaleString()} FC
               </p>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400">
+              <p className="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400">
                 ${item.price_usd.toFixed(2)}
               </p>
 
@@ -106,24 +106,24 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           </div>
 
           {/* Quantity Selector */}
-          <div className="mt-6 flex items-center justify-between border-t border-b border-zinc-100 dark:border-zinc-800 py-4">
+          <div className="mt-4 flex items-center justify-between border-t border-b border-zinc-100 dark:border-zinc-800 py-3">
             <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
               {t('quantity')}
             </span>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3">
               <button
                 onClick={handleDecrement}
-                className="w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-lg font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+                className="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-sm font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
                 disabled={quantity <= 1}
               >
                 -
               </button>
-              <span className="text-lg font-bold w-6 text-center text-zinc-900 dark:text-zinc-50">
+              <span className="text-base font-bold w-5 text-center text-zinc-900 dark:text-zinc-50">
                 {quantity}
               </span>
               <button
                 onClick={handleIncrement}
-                className="w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-lg font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+                className="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 flex items-center justify-center text-sm font-bold text-zinc-900 dark:text-zinc-50 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
               >
                 +
               </button>
@@ -132,10 +132,10 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         </div>
 
         {/* Footer / Add button - Sticky */}
-        <div className="p-6 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800 flex-shrink-0">
+        <div className="p-4 sm:p-6 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800 flex-shrink-0">
           <button
             onClick={handleAddToCart}
-            className="w-full py-3.5 px-4 rounded-full bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white font-semibold shadow-md transition-colors duration-200"
+            className="w-full py-3 px-4 rounded-full bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white font-semibold shadow-md transition-colors duration-200"
           >
             {t('addToCart')}
           </button>
