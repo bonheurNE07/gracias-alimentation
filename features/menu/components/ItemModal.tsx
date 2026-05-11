@@ -60,14 +60,21 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         </button>
 
         {/* Image */}
-        <div className="relative w-full h-64 sm:h-56 bg-zinc-100 dark:bg-zinc-800">
-          <Image
-            src={item.image}
-            alt={mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
-            fill
-            className="object-cover"
-            priority
-          />
+        <div className="relative w-full h-64 sm:h-56 bg-zinc-100 dark:bg-zinc-800 overflow-hidden">
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.25 }}
+            transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
+            className="relative w-full h-full cursor-zoom-in"
+          >
+            <Image
+              src={item.image}
+              alt={mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
+              fill
+              className="object-cover"
+              priority
+            />
+          </motion.div>
           {/* Close button for mobile */}
           <button
             onClick={onClose}
