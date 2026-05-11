@@ -48,7 +48,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}
         transition={{ type: 'spring', damping: 25, stiffness: 250 }}
-        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[90vh] flex flex-col relative"
+        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[95vh] flex flex-col relative"
       >
 
         {/* Close button for desktop */}
@@ -60,7 +60,7 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
         </button>
 
         {/* Image */}
-        <div className="relative w-full h-64 sm:h-56 bg-zinc-100 dark:bg-zinc-800 overflow-hidden">
+        <div className="relative w-full h-48 sm:h-56 bg-zinc-100 dark:bg-zinc-800 overflow-hidden flex-shrink-0">
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 1.25 }}
@@ -84,12 +84,12 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           </button>
         </div>
 
-        {/* Content */}
-        <div className="p-6 flex-1 overflow-y-auto">
+        {/* Content - Scrollable */}
+        <div className="p-6 flex-1 overflow-y-auto min-h-0">
           <h2 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {mt.has(`${item.id}.name`) ? mt(`${item.id}.name`) : item.name}
           </h2>
-          <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+          <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400 whitespace-pre-wrap break-words">
             {mt.has(`${item.id}.description`) ? mt(`${item.id}.description`) : item.description}
           </p>
 
@@ -131,8 +131,8 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
           </div>
         </div>
 
-        {/* Footer / Add button */}
-        <div className="p-6 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800">
+        {/* Footer / Add button - Sticky */}
+        <div className="p-6 bg-zinc-50 dark:bg-zinc-800/50 border-t border-zinc-100 dark:border-zinc-800 flex-shrink-0">
           <button
             onClick={handleAddToCart}
             className="w-full py-3.5 px-4 rounded-full bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600 text-white font-semibold shadow-md transition-colors duration-200"
