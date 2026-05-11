@@ -38,17 +38,18 @@ export default function ItemModal({ item, onClose }: ItemModalProps) {
   return (
     <motion.div 
       initial={{ opacity: 0 }}
-
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-sm"
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-sm cursor-pointer"
     >
       <motion.div 
         initial={{ y: 60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}
         transition={{ type: 'spring', damping: 25, stiffness: 250 }}
-        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-[2.5rem] sm:rounded-[2rem] overflow-hidden shadow-2xl max-h-[95vh] flex flex-col relative"
+        onClick={(e) => e.stopPropagation()}
+        className="w-full sm:max-w-md bg-white dark:bg-zinc-900 rounded-t-[2.5rem] sm:rounded-[2rem] overflow-hidden shadow-2xl max-h-[95vh] flex flex-col relative cursor-default"
       >
         {/* Mobile Drag Handle */}
         <div className="flex sm:hidden justify-center pt-3 pb-1 absolute top-0 w-full z-20">
