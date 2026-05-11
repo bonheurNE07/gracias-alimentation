@@ -43,7 +43,7 @@ export default function MenuCard({ item, onSelect }: MenuCardProps) {
           <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-50 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
             {t.has(`${item.id}.name`) ? t(`${item.id}.name`) : item.name}
           </h3>
-          <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400">
+          <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400 line-clamp-2">
             {t.has(`${item.id}.description`) ? t(`${item.id}.description`) : item.description}
           </p>
         </div>
